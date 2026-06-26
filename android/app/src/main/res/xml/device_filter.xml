@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- USB 设备过滤器：匹配所有 USB 大容量存储设备 (class=8) -->
+<resources>
+    <!-- USB Mass Storage (U盘、移动硬盘、读卡器等) -->
+    <usb-device class="8" subclass="6" protocol="80" />
+    <!-- 通配：所有 USB 大容量存储 -->
+    <usb-device class="8" />
+    <!-- 兜底：所有 USB 设备 -->
+    <usb-device vendor-id="-1" product-id="-1" class="255" subclass="255" protocol="0" />
+</resources>

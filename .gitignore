@@ -1,0 +1,38 @@
+﻿# Dependencies
+node_modules/
+.gradle/
+android/app/build/
+
+# Build outputs
+*.apk
+*.aab
+*.keystore
+*.jks
+*.p12
+*.pkcs12
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# React Native
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/res/drawable-*
+android/app/src/main/res/raw/
+
+# Metro
+.metro-health-check-*
+
+# Env
+.env
+.env.local
+.env.production
+
+# Backup
+*.bak

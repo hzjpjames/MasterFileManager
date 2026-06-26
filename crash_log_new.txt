@@ -1,0 +1,1646 @@
+--------- beginning of main
+06-02 12:17:21.656  2990  2990 D EventBus: No subscribers registered for event class com.miui.home.launcher.common.messages.EndSpringAnimatorMessage
+06-02 12:17:21.656  2990  2990 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+06-02 12:17:21.657  2990  2990 D Launcher.Feed: touchState : 0 scrolling : false normalEditing : false WidgetThumbnailViewShowing : false UninstallDialogShowing : false isMinusScreenShowing: false
+--------- beginning of system
+06-02 12:17:21.658  1788  2561 W SchedBoost: SchedBoost begin: proc: 2990/3200, mode: 2 aff:[4, 5, 6]
+06-02 12:17:21.661  2990  2990 D Launcher.StatusBarController: try intercept touch, isProxySurvive=true
+06-02 12:17:21.662  2990  2990 D Launcher.Workspace: Workspace touch down
+06-02 12:17:21.662  2990  2990 D ScreenView_Workspace: onIntercept:0.0
+06-02 12:17:21.662  2990  2990 D ScreenView_Workspace: not intercept
+06-02 12:17:21.663  2990  2990 D Launcher.CellLayout: touch item:ShortcutInfo, id=594, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.masterfilemanager, className=com.masterfilemanager.MainActivity, screenId=2, container=-100, cellX=3, cellY=5, spanX=1, spanY=1
+06-02 12:17:21.663  2990  2990 D Launcher.itemIcon: folmeDown
+06-02 12:17:21.667  2990  5832 D Launcher.Boost: bindcore 200
+06-02 12:17:21.762  2990  2990 D Launcher.Workspace: Workspace touch up or cancel
+06-02 12:17:21.763  2990  2990 D ScreenView_Workspace: oninterceput up
+06-02 12:17:21.763  2990  2990 D Launcher.itemIcon: folmeUp
+06-02 12:17:21.763  2990  3386 I RenderThread: RenderThread resumed
+06-02 12:17:21.763  2990  3386 I RenderThread: All controllers paused.
+06-02 12:17:21.763  2990  3386 I RenderThread: RenderThread paused, waiting for signal
+06-02 12:17:21.766  2990  2990 E QuickstepAppTransitionManagerImpl: getActivityLaunchOptions   iconLoc=Rect(656, 1587 - 844, 1775)
+06-02 12:17:21.767  2990  2990 I Timeline: Timeline: Activity_launch_request time:448976430
+06-02 12:17:21.770  1788  5963 W XSpaceManagerService: checkXSpaceControl, from:com.miui.home, to:com.masterfilemanager, with act:android.intent.action.MAIN, callingUserId:0, toUserId:0
+06-02 12:17:21.771  1788  5963 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.masterfilemanager/.MainActivity bnds=[656,1587][844,1775] (has extras)} from uid 10083
+06-02 12:17:21.771  1788  5963 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.xiaomi.smarthome, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.appsomniacs.da2, com.miHoYo.Yuanshen, com.baidu.BaiduMap, com.google.android.googlequicksearchbox]
+06-02 12:17:21.773   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-02 12:17:21.773   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-02 12:17:21.774   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:21.774   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:21.774   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:21.774   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:21.774   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:21.774   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:21.774   891   953 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:21.775   891   953 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:21.775   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:21.775   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:21.775   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:21.775   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:21.775   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:21.775   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:21.775   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:21.776   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:21.776   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:21.776   891   891 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:21.776   891   891 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:21.776   891   891 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.masterfilemanager feature:AppClassifier feedback = 1
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: hintType: 2
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: isPrimary = 0
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,com.masterfilemanager,-1,1788,5963)
+06-02 12:17:21.776   891   953 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:21.776   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:21.776   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:21.776   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:21.776   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: hintType: 3
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: isPrimary = 0
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,com.masterfilemanager,-1,1788,5963)
+06-02 12:17:21.776   891   953 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:21.776  1788  5963 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-02 12:17:21.776   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:21.781   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:21.781   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:21.781   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:21.781   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:21.781   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:21.781   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:21.781   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:21.781   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:21.781   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:21.781   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:21.781   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:21.781   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:21.781   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:21.781   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:21.781   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:21.781   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:21.781   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:21.781   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:21.781   890   912 E ANDR-IOP: io prefetch is disabled
+06-02 12:17:21.784  1788  5963 D CompatibilityInfo: mCompatibilityFlags - 0
+06-02 12:17:21.784  1788  5963 D CompatibilityInfo: applicationDensity - 440
+06-02 12:17:21.784  1788  5963 D CompatibilityInfo: applicationScale - 1.0
+06-02 12:17:21.785   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-02 12:17:21.785   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:21.785   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:21.785   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:21.785   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:21.785   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:21.785   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-02 12:17:21.785   891   953 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:21.785   891   953 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:21.785   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-02 12:17:21.785   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:21.785   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:21.785  1788  5963 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-02 12:17:21.785   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-02 12:17:21.785   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:21.785   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:21.785   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:21.785   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:21.785   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:21.785   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-02 12:17:21.785   891   953 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:21.785   891   953 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:21.785   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-02 12:17:21.785   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:21.785   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:21.785   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-02 12:17:21.791  2990  2990 D Launcher.Lifecycle: onPause:UserHandle{0},2577498,true
+06-02 12:17:21.791  2990  2990 D Launcher_UnlockAnimationStateMachine: setState:PAUSE_WAIT
+06-02 12:17:21.791  1788  1824 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-02 12:17:21.792   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:21.792   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-02 12:17:21.803  1418  1418 W Binder:1418_1: type=1400 audit(0.0:277422): avc: denied { search } for name="829" dev="proc" ino=8738256 scontext=u:r:cameraserver:s0 tcontext=u:r:hal_camera_default:s0 tclass=dir permissive=0
+06-02 12:17:21.792   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-02 12:17:21.792   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-02 12:17:21.792   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:21.792   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:21.792   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:21.793   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:21.793   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-02 12:17:21.793 26108 26250 D LauncherOverlay: setActivityState:1
+06-02 12:17:21.793 26108 26108 D LauncherOverlay.Window: onPause
+06-02 12:17:21.793   891   953 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:21.793   891   953 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:21.793   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-02 12:17:21.793   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:21.793   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:21.795 23277 23969 D IdProviderImpl: getOAID
+06-02 12:17:21.802  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.807  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10354, uidState = 19
+06-02 12:17:21.815  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.819   718   718 D Zygote  : Forked child process 25792
+06-02 12:17:21.820 25792 25792 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+06-02 12:17:21.822  1788  1833 I ActivityManager: Start proc 25792:com.masterfilemanager/u0a354 for pre-top-activity {com.masterfilemanager/com.masterfilemanager.MainActivity} caller=com.miui.home
+06-02 12:17:21.827  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.828  2990  2990 D Launcher.Lifecycle: onWindowFocusChanged:false,UserHandle{0},2577498,true
+06-02 12:17:21.832 25792 25792 E sterfilemanage: Not starting debugger since process cannot load the jdwp agent.
+06-02 12:17:21.839   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:21.839   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:21.839   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:21.839   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:21.839   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:21.839   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:21.839   891   953 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-02 12:17:21.839   891   953 I ANDR-PERF-LM: hintType: 103
+06-02 12:17:21.839   891   953 I ANDR-PERF-LM: isPrimary = 0
+06-02 12:17:21.839   891   953 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 103,com.masterfilemanager,25792,1788,6424)
+06-02 12:17:21.839   891   953 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-02 12:17:21.839   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:21.839   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:21.839   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:21.841  1788  6424 D CompatibilityInfo: mCompatibilityFlags - 0
+06-02 12:17:21.841  1788  6424 D CompatibilityInfo: applicationDensity - 440
+06-02 12:17:21.841  1788  6424 D CompatibilityInfo: applicationScale - 1.0
+06-02 12:17:21.844  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.844  1788  6424 D CompatibilityInfo: mCompatibilityFlags - 0
+06-02 12:17:21.844  1788  6424 D CompatibilityInfo: applicationDensity - 440
+06-02 12:17:21.844  1788  6424 D CompatibilityInfo: applicationScale - 1.0
+06-02 12:17:21.845  2990 26651 D AppObserver: ForegroundInfo{mForegroundPackageName='com.masterfilemanager', mForegroundUid=10354, mForegroundPid=25792, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10083, mLastForegroundPid=2990, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-02 12:17:21.845   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-02 12:17:21.845  5955 10424 D p1      : myUserId = 0	currentUserId0
+06-02 12:17:21.845   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-02 12:17:21.845  7206  8100 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.masterfilemanager', mForegroundUid=10354, mForegroundPid=25792, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10083, mLastForegroundPid=2990, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-02 12:17:21.845  5955 17403 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.masterfilemanager', mForegroundUid=10354, mForegroundPid=25792, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10083, mLastForegroundPid=2990, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-02 12:17:21.845  7206  8086 I ThermalInfoCollector: collectForgroundAppsInfo
+06-02 12:17:21.845  7713 32396 I GST     : forePkg: com.masterfilemanager, preForePkg: com.miui.home
+06-02 12:17:21.846  3591  8225 I octvm_power: power mode [normal] start 1780373841
+06-02 12:17:21.833  3591  3591 W Binder:3591_2: type=1400 audit(0.0:277423): avc: denied { search } for name="battery" dev="sysfs" ino=70622 scontext=u:r:mcd:s0 tcontext=u:object_r:vendor_sysfs_battery_supply:s0 tclass=dir permissive=0
+06-02 12:17:21.846  3591  8225 E octvm   : open /sys/class/power_supply/battery/status error, Permission denied
+06-02 12:17:21.846  3591  8225 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-02 12:17:21.843  3591  3591 W Binder:3591_2: type=1400 audit(0.0:277424): avc: denied { search } for name="battery" dev="sysfs" ino=70622 scontext=u:r:mcd:s0 tcontext=u:object_r:vendor_sysfs_battery_supply:s0 tclass=dir permissive=0
+06-02 12:17:21.846  3591  8225 I octvm_power: Action: set_bcbc_cust_state(disable) for [foreground_change]
+06-02 12:17:21.847   585   585 E SELinux : avc:  denied  { find } for interface=vendor.xiaomi.hardware.displayfeature::IDisplayFeature sid=u:r:mcd:s0 pid=3591 scontext=u:r:mcd:s0 tcontext=u:object_r:hal_displayfeature_xiaomi_hwservice:s0 tclass=hwservice_manager permissive=0
+06-02 12:17:21.847  3591  8225 E octvm_drv_xm: platform_set_bcbc_cust_state IDisplayFeature getService failed
+06-02 12:17:21.847  3591  8225 E octvm_power: Action set_bcbc_cust_state failed.
+06-02 12:17:21.847  3591  8225 I octvm_power: Action: set_lcd_mode(default) for [foreground_change]
+06-02 12:17:21.847   585   585 E SELinux : avc:  denied  { find } for interface=vendor.xiaomi.hardware.displayfeature::IDisplayFeature sid=u:r:mcd:s0 pid=3591 scontext=u:r:mcd:s0 tcontext=u:object_r:hal_displayfeature_xiaomi_hwservice:s0 tclass=hwservice_manager permissive=0
+06-02 12:17:21.847  5955 17403 I GameBoosterService: onForegroundInfoChanged: Cur=com.masterfilemanager	 last=com.miui.home
+06-02 12:17:21.847  3591  8225 E octvm_drv_xm: platform_set_lcd_mode IDisplayFeature getService failed
+06-02 12:17:21.847  3591  8225 E octvm   : open /sys/class/power_supply/battery/status error, Permission denied
+06-02 12:17:21.847  3591  8225 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-02 12:17:21.847  3591  8225 I octvm_power: onPowerModeChanged[normal] called
+06-02 12:17:21.847  5955 17403 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.masterfilemanager', mForegroundUid=10354, mForegroundPid=25792, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10083, mLastForegroundPid=2990, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-02 12:17:21.848  5955 17403 I VideoBoxUtils: isSupportVideoBox: false
+06-02 12:17:21.848  5955 17403 I VideoToolBoxService: vtb is closed!!!
+06-02 12:17:21.848  5955  7593 E SuggestManager: openApp name = com.masterfilemanager
+06-02 12:17:21.848  5955  7593 I NewAutoTaskManager: app use - delay = 9223372036854775807, doRemove = false, doPost = false
+06-02 12:17:21.854  1788  2561 W SchedBoost: SchedBoost continue: proc: 2990/3200
+06-02 12:17:21.854  1788  1824 I Timeline: Timeline: App_transition_ready time:448976517
+06-02 12:17:21.859  2990 26651 W System.err: java.lang.NoSuchFieldException: android.view.RemoteAnimationTarget#packageName
+06-02 12:17:21.859  2990 26651 W System.err: 	at miui.util.ReflectionUtils.findField(ReflectionUtils.java:105)
+06-02 12:17:21.859  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationTargetCompat.<init>(RemoteAnimationTargetCompat.java:69)
+06-02 12:17:21.859  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationTargetCompat.wrap(RemoteAnimationTargetCompat.java:99)
+06-02 12:17:21.859  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationAdapterCompat$1.onAnimationStart(RemoteAnimationAdapterCompat.java:50)
+06-02 12:17:21.859  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationAdapterCompat$1.onAnimationStart(RemoteAnimationAdapterCompat.java:68)
+06-02 12:17:21.859  2990 26651 W System.err: 	at android.view.IRemoteAnimationRunner$Stub.onTransact(IRemoteAnimationRunner.java:108)
+06-02 12:17:21.859  2990 26651 W System.err: 	at android.os.Binder.execTransactInternal(Binder.java:1162)
+06-02 12:17:21.859  2990 26651 W System.err: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-02 12:17:21.859  2990 26651 W System.err: java.lang.NoSuchFieldException: android.view.RemoteAnimationTarget#packageName
+06-02 12:17:21.859  2990 26651 W System.err: 	at miui.util.ReflectionUtils.findField(ReflectionUtils.java:105)
+06-02 12:17:21.860  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationTargetCompat.<init>(RemoteAnimationTargetCompat.java:69)
+06-02 12:17:21.860  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationTargetCompat.wrap(RemoteAnimationTargetCompat.java:99)
+06-02 12:17:21.860  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationAdapterCompat$1.onAnimationStart(RemoteAnimationAdapterCompat.java:50)
+06-02 12:17:21.860  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationAdapterCompat$1.onAnimationStart(RemoteAnimationAdapterCompat.java:68)
+06-02 12:17:21.860  2990 26651 W System.err: 	at android.view.IRemoteAnimationRunner$Stub.onTransact(IRemoteAnimationRunner.java:108)
+06-02 12:17:21.860  2990 26651 W System.err: 	at android.os.Binder.execTransactInternal(Binder.java:1162)
+06-02 12:17:21.860  2990 26651 W System.err: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-02 12:17:21.860  2990 26651 E LauncherAnimationRunner: onAnimationStart
+06-02 12:17:21.860  2990 26651 E LauncherAnimationRunner: onAnimationStart:   mode=1   taskId=2   isTranslucent=false
+06-02 12:17:21.860  2990 26651 E LauncherAnimationRunner: onAnimationStart:   mode=0   taskId=1788   isTranslucent=false
+06-02 12:17:21.861 25792 25792 I Perf    : Connecting to perf service.
+06-02 12:17:21.861  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.861  2657  3045 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-02 12:17:21.862  2990  2990 E QuickstepAppTransitionManagerImpl: startIconLaunchAnimator:launcherClosing=true   iconLoc=Rect(656, 1587 - 844, 1775)
+06-02 12:17:21.862  2990  2990 E QuickstepAppTransitionManagerImpl: startOpeningWindowAnimators:iconLoc=Rect(656, 1587 - 844, 1775)
+06-02 12:17:21.862  2990  2990 E ClipAnimationHelper: updateSourceStack  mSourceInsets=Rect(0, 0 - 0, 44), mSourceStackBounds=Rect(0, 0 - 1080, 2340)
+06-02 12:17:21.862  2990  2990 E ClipAnimationHelper: updateHomeStack  mSourceInsets=Rect(0, 0 - 0, 44), mHomeStackBounds=Rect(0, 0 - 1080, 2340)
+06-02 12:17:21.862  2990  2990 E ClipAnimationHelper: updateTargetRect  mSourceRect=RectF(0.0, 0.0, 1080.0, 2340.0)   mTargetRect=RectF(0.0, 0.0, 1080.0, 2340.0)   mSourceWindowClipInsets=RectF(0.0, 0.0, 0.0, 0.0)   mHomeStackBounds=Rect(0, 0 - 1080, 2340)   targetRect=Rect(0, 0 - 1080, 2340)
+06-02 12:17:21.862  2990  2990 I QuickstepAppTransitionManagerImpl: startOpeningWindowAnimators, currentDisplayRotation=0, homeRotation=0, startRectF=RectF(663.0, 1594.0, 837.0, 1768.0), endRectF=RectF(0.0, 0.0, 1080.0, 2340.0), startRadius = 248.27588, endRadius = 96.0, isUseTranslucentAnim = false
+06-02 12:17:21.863  2990  2990 W DimLayer: createDimLayer
+06-02 12:17:21.863  2990  5965 W FloatingIconLayer: getFloatingIconLayer
+06-02 12:17:21.863  2990  2990 E QuickstepAppTransitionManagerImpl: startLauncherContentAnimator:isAppOpening=true
+06-02 12:17:21.863  2990  2990 E BlurUtils: fastBlur ratio=1.0   withAnim=true   sBlurRatioValue=0.0
+06-02 12:17:21.864  2990  5965 W FloatingIconLayer: drawIcon
+06-02 12:17:21.865  2990  5832 D Launcher.Boost: bindcore 98
+06-02 12:17:21.866 27826 27888 D MyLog   : -->log(1): [Tid:23318] [ActivationManager_ac] -->onPackageGoForeground(): packageName=com.masterfilemanager, uid10354, myUid=999, pkgUserId=0
+06-02 12:17:21.868  3378  3378 D AppLifecycleObserver: onReceive: com.masterfilemanager FOREGROUND
+06-02 12:17:21.868  3378  3378 I GameEventTag: notify failed, pkg=com.masterfilemanager event=3 version not match
+06-02 12:17:21.868  3735  3735 D AppLifecycleObserver: onReceive: com.masterfilemanager FOREGROUND
+06-02 12:17:21.868  3735  3735 I GameEventTag: notify failed, pkg=com.masterfilemanager event=3 version not match
+06-02 12:17:21.868  5955 17403 I BeautyService: onForegroundInfoChanged: Cur=com.masterfilemanager	 last=com.miui.home
+06-02 12:17:21.868  3378  3378 D PkgUtils: getApplicationInfo packageName:com.masterfilemanager, flags:128 applicationInfo:ApplicationInfo{41ecfc1 com.masterfilemanager} needSecondSpace:false
+06-02 12:17:21.868  3378  3378 D AppLifecycleObserver: onReceive: com.masterfilemanager FOREGROUND
+06-02 12:17:21.868  3378  3378 I GameEventTag: notify failed, pkg=com.masterfilemanager event=3 version not match
+06-02 12:17:21.868  3735  3735 D PkgUtils: getApplicationInfo packageName:com.masterfilemanager, flags:128 applicationInfo:ApplicationInfo{f609d4a com.masterfilemanager} needSecondSpace:false
+06-02 12:17:21.869 24297 24340 D VA_ActivityUtils: getTopActivity packageName:ComponentInfo{com.masterfilemanager/com.masterfilemanager.MainActivity}
+06-02 12:17:21.869 24297 24340 D VA_AppStateWatcher: currentPkgName:com.masterfilemanager, className:com.masterfilemanager.MainActivity, lastPkgName:com.miui.home
+06-02 12:17:21.869 24297 24297 D VA_TopAppChangedObserver: onAppChanged...com.masterfilemanager
+06-02 12:17:21.869  3378  3378 D PkgUtils: getApplicationInfo packageName:com.masterfilemanager, flags:128 applicationInfo:ApplicationInfo{41ecfc1 com.masterfilemanager} needSecondSpace:false
+06-02 12:17:21.869 24297 24297 D VA_TopAppChangedObserver: onAppChanged notify listener:
+06-02 12:17:21.870 24297 24297 I VA_ConversationManager: lastQueryOrigin====null;fromCar=false
+06-02 12:17:21.870  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10354, uidState = 2
+06-02 12:17:21.870  1788  2408 I MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic uid=10354,add=true
+06-02 12:17:21.870  1788  2408 D MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic rst=true
+06-02 12:17:21.870 24297 24297 D VA_QueryRecorder: getQueryInfo: requestId is empty
+06-02 12:17:21.870 24297 24297 D VA_OperationManager: getQueryInfo: QueryInfo(dialogId=null, queryText=null, queryExtraInfo=null, isFromAiInputPage=false, isRenewSession=null, skillId=null)
+06-02 12:17:21.870 24297 24297 I VA_ConversationManager: lastQueryOrigin====null;fromDevice=false
+06-02 12:17:21.870 24297 24297 D VA_TopAppChangedObserver: onAppChanged notify listener:a
+06-02 12:17:21.870 24297 24297 I VA__LAS_LocalAppSearch: onTopAppChanged: com.masterfilemanager
+06-02 12:17:21.872 24297 24297 D VA_TopAppChangedObserver: onAppChanged notify listener:j
+06-02 12:17:21.872 25792 25792 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-02 12:17:21.872 24297 24297 I VA_HybridLifecycleListener: onTopAppChanged: newApp=com.masterfilemanager from=com.miui.home fromPkg=com.masterfilemanager
+06-02 12:17:21.872 25792 25792 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-02 12:17:21.876   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.876   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.877  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.878 25792 25792 I ContentProviderMonitor: PerfMonitor installContentProviders : before publish content providers
+06-02 12:17:21.883 25792 25792 V SoLoader: Init System Loader delegate
+06-02 12:17:21.884   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:21.884   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:21.884   891   891 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:21.884   891   891 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:21.884   891   891 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.masterfilemanager feature:AppClassifier feedback = 1
+06-02 12:17:21.886   992  1067 W DisplayIdentification: Invalid EDID: falling back to serial number due to missing display name.
+06-02 12:17:21.886   992  1067 W DisplayIdentification: Invalid EDID: falling back to ASCII text due to missing serial number.
+06-02 12:17:21.891 25792 25792 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+06-02 12:17:21.892  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.01136592   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:21.893  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.893   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.895  2990 26651 D RecentsModel: onTaskStackChangedBackground
+06-02 12:17:21.895  5955 17403 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-02 12:17:21.895  2990  3265 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+06-02 12:17:21.895  2990  3265 D RecentsModel: preloadRecents
+06-02 12:17:21.895  2990  3265 W RecentsModel: getRunningTask
+06-02 12:17:21.896  5955  5983 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-02 12:17:21.896  2990  3265 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 pcFlags:0 stackId=1788 taskId=1788 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.masterfilemanager/.MainActivity } baseActivity=ComponentInfo{com.masterfilemanager/com.masterfilemanager.MainActivity} topActivity=ComponentInfo{com.masterfilemanager/com.masterfilemanager.MainActivity} origActivity=null realActivity=ComponentInfo{com.masterfilemanager/com.masterfilemanager.MainActivity} numActivities=1 lastActiveTime=918269430 supportsSplitScreenMultiWindow=true resizeMode=1 isResizeable=true token=android.window.WindowContainerToken@1ea0eaa topActivityType=1 pictureInPictureParams=null topActivityInfo=ActivityInfo{29c3a9b com.masterfilemanager.MainActivity} windowMode=1
+06-02 12:17:21.896  2990  3265 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.masterfilemanager/com.masterfilemanager.MainActivity}
+06-02 12:17:21.896  2990  3265 E ActivityManagerWrapper: get all recent tasks force including 1788
+06-02 12:17:21.899  2990  3265 E ActivityManagerWrapper: getRecentTasks: size=5
+06-02 12:17:21.899  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1788   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.masterfilemanager/.MainActivity }
+06-02 12:17:21.899  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1776   userId=0   baseIntent=Intent { flg=0x10800000 cmp=com.android.settings/.Settings$UsbDetailsActivity }
+06-02 12:17:21.899  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1755   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI }
+06-02 12:17:21.899  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1753   userId=0   baseIntent=Intent { flg=0x10840000 cmp=com.android.deskclock/.alarm.alert.AlarmAlertFullScreenActivity }
+06-02 12:17:21.899  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1751   userId=0   baseIntent=Intent { flg=0x10810000 cmp=com.miui.voiceassist/com.xiaomi.voiceassistant.AiSettings.AiShortcutActivity }
+06-02 12:17:21.899  2990  3155 D StatusBarController: handleMessage: flag 800000  disable false
+06-02 12:17:21.899  2990  2990 D Launcher_WallpaperUtils: changeStatusBarMode:false
+06-02 12:17:21.908   992   992 E Layer   : setupBlurSurface setupBlurSurface com.miui.home/com.miui.home.launcher.Launcher#0
+06-02 12:17:21.909   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.909   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.910  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.914 25792 25792 E SMBPackage: SMBPackage class loaded! CL=dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/~~s8WGO5nADbQsSOTaDhtzqQ==/com.masterfilemanager-Mbr0e0hCFwzE5tT1lo_Jqg==/base.apk"],nativeLibraryDirectories=[/data/app/~~s8WGO5nADbQsSOTaDhtzqQ==/com.masterfilemanager-Mbr0e0hCFwzE5tT1lo_Jqg==/lib/arm64, /data/app/~~s8WGO5nADbQsSOTaDhtzqQ==/com.masterfilemanager-Mbr0e0hCFwzE5tT1lo_Jqg==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]]
+06-02 12:17:21.914 25792 25792 E SMBPackage: SMBPackage instance created
+06-02 12:17:21.914 25792 25792 W unknown:ReactInstanceManagerBuilder: You're not setting the JS Engine Resolution Algorithm. We'll try to load JSC first, and if it fails we'll fallback to Hermes
+06-02 12:17:21.918 25792 25792 W linker  : Warning: "/data/app/~~s8WGO5nADbQsSOTaDhtzqQ==/com.masterfilemanager-Mbr0e0hCFwzE5tT1lo_Jqg==/base.apk!/lib/arm64-v8a/libc++_shared.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+06-02 12:17:21.921 25792 25792 W linker  : Warning: "/data/app/~~s8WGO5nADbQsSOTaDhtzqQ==/com.masterfilemanager-Mbr0e0hCFwzE5tT1lo_Jqg==/base.apk!/lib/arm64-v8a/libruntimeexecutor.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+06-02 12:17:21.925   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.925   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.925  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.09549156   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:21.927  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.930 25792 25792 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-02 12:17:21.930 25792 25792 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-02 12:17:21.932 25792 25818 E SMBPackage: SMBPackage.createNativeModules called
+06-02 12:17:21.937 25792 25817 D ViewContentFactory: initViewContentFetcherClass
+06-02 12:17:21.937 25792 25817 D ViewContentFactory: getInterceptorPackageInfo
+06-02 12:17:21.938 25792 25817 D ViewContentFactory: getInitialApplication took 0ms
+06-02 12:17:21.938 25792 25817 D ViewContentFactory: packageInfo.packageName: com.miui.catcherpatch
+06-02 12:17:21.943   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.943 25792 25817 D ViewContentFactory: initViewContentFetcherClass took 6ms
+06-02 12:17:21.943 25792 25817 I ContentCatcher: ViewContentFetcher : ViewContentFetcher
+06-02 12:17:21.943 25792 25817 D ViewContentFactory: createInterceptor took 6ms
+06-02 12:17:21.943   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.945  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.955  2990  2990 D RecentsImpl: mActivityStateObserver com.masterfilemanager.MainActivity
+06-02 12:17:21.955  2990  2990 W RecentsImpl: onResumed className=com.masterfilemanager.MainActivity   mIsInAnotherPro=false   isKeyguardLocked=false
+06-02 12:17:21.955 27826 28168 I XMSF-actMonitor_MonitorManager: onActivityResumed: ActivityInfo{name='com.masterfilemanager.MainActivity', pkg='com.masterfilemanager', callerPkg='null', windowMode=-1, displayId=-1, appBounds=Rect(0, 75 - 1080, 2296), duration=-1},activityInfoQueue:30,curMonitorStrategy=
+06-02 12:17:21.955  2990  3177 W RecentsImpl: disableTouchBySwipeStatusBar    disable=false
+06-02 12:17:21.955  2990  3177 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+06-02 12:17:21.955  2990  3177 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+06-02 12:17:21.955  3378  3429 D services: [XMS][observer] ActivityObserver activityResumed packageName: com.masterfilemanager
+06-02 12:17:21.955  2990  3177 W RecentsImpl: disableBackStubWindow    disableTouch=false
+06-02 12:17:21.955  2990  3177 D GestureStubView_Touch: disableTouch    old=true   new=false
+06-02 12:17:21.955  2990  3177 D GestureStubView_Touch: updateTouchable    old=true   new=true
+06-02 12:17:21.955  2990  3177 D GestureStubView_Touch: disableTouch    old=true   new=false
+06-02 12:17:21.955  2990  3177 D GestureStubView_Touch: updateTouchable    old=true   new=true
+06-02 12:17:21.955  2990  3177 D RecentsImpl: showBackStubWindow  hasNavigationBar=true
+06-02 12:17:21.955  2990  3177 D GestureStubView_Touch: setKeepHidden    old=true   new=false
+06-02 12:17:21.955  2990  3177 D GestureStubView_Touch: updateTouchable    old=true   new=false
+06-02 12:17:21.955  2990  3177 D GestureStubView_Touch:   updateTouchable---requestApplyInsets
+06-02 12:17:21.956  2990  3186 D RecentsImpl: showNavStubView
+06-02 12:17:21.956  2990  3186 D NavStubView_Touch: setKeepHidden    old=false   new=false
+06-02 12:17:21.956  2990  3177 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+06-02 12:17:21.956 26997 27045 D auth    : [XMS][Auth] ActivityObserver activityResumed packageName: com.masterfilemanager
+06-02 12:17:21.956  2990  3177 D GestureStubView: resetRenderProperty: showGestureStub
+06-02 12:17:21.956  2990  3177 D GestureStubView_Touch: disableTouch    old=false   new=false
+06-02 12:17:21.956  2990  3177 D GestureStubView: showGestureStub
+06-02 12:17:21.956  2990  3177 D GestureStubView_Touch: setKeepHidden    old=true   new=false
+06-02 12:17:21.956  2990  3177 D GestureStubView_Touch: updateTouchable    old=true   new=false
+06-02 12:17:21.956  2990  3177 D GestureStubView_Touch:   updateTouchable---requestApplyInsets
+06-02 12:17:21.956  2990  3177 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+06-02 12:17:21.956  2990  3177 D GestureStubView: resetRenderProperty: showGestureStub
+06-02 12:17:21.956  2990  3177 D GestureStubView_Touch: disableTouch    old=false   new=false
+06-02 12:17:21.956  2990  3177 D GestureStubView: showGestureStub
+06-02 12:17:21.956 31637 31661 D auth    : [XMS][Auth] ActivityObserver activityResumed packageName: com.masterfilemanager
+06-02 12:17:21.957 24297 25769 I VA_ActivityStateHelper: activityResumed componentName ComponentInfo{com.masterfilemanager/com.masterfilemanager.MainActivity}
+06-02 12:17:21.957  3735  3770 D services: [XMS][observer] ActivityObserver activityResumed packageName: com.masterfilemanager
+06-02 12:17:21.957 24297 25769 I VA_ActivityStateHelper: activityResumed mAiSkillPush is false
+06-02 12:17:21.957  6526  6584 I XMSF-actMonitor_MonitorManager: onActivityResumed: ActivityInfo{name='com.masterfilemanager.MainActivity', pkg='com.masterfilemanager', callerPkg='null', windowMode=-1, displayId=-1, appBounds=Rect(0, 75 - 1080, 2296), duration=-1},activityInfoQueue:30,curMonitorStrategy=
+06-02 12:17:21.958  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.24818844   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:21.959   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.959   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.959  2990  5965 W FloatingIconLayer: release
+06-02 12:17:21.961  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.962  2657  3535 D CommandQueue: setStatus: setStatus: what = 0, action = upate_specail_mode, ext = Bundle[mParcelledData.dataSize=108][pkg = com.masterfilemanager[enable_config = false
+06-02 12:17:21.964  2990  3177 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-02 12:17:21.965 25792 25792 V MiuiFrameworkFactory: get AllImpl object = android.common.MiuiFrameworkFactoryImpl@c8e95dc
+06-02 12:17:21.972 25792 25814 I AdrenoGLES-0: QUALCOMM build                   : 42297a4, I9e9b240040
+06-02 12:17:21.972 25792 25814 I AdrenoGLES-0: Build Date                       : 03/19/21
+06-02 12:17:21.972 25792 25814 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.07
+06-02 12:17:21.972 25792 25814 I AdrenoGLES-0: Local Branch                     : 
+06-02 12:17:21.972 25792 25814 I AdrenoGLES-0: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.9.1.R1.11.00.00.604.070
+06-02 12:17:21.972 25792 25814 I AdrenoGLES-0: Remote Branch                    : NONE
+06-02 12:17:21.972 25792 25814 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+06-02 12:17:21.972 25792 25814 I AdrenoGLES-0: Build Config                     : S P 10.0.6 AArch64
+06-02 12:17:21.972 25792 25814 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+06-02 12:17:21.974  2990  3177 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-02 12:17:21.975   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.976   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.977 25792 25814 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+06-02 12:17:21.979  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.982 25792 25820 E ReactNativeJS: TypeError: Cannot read property 'RNFSFileTypeRegular' of null, js engine: hermes
+06-02 12:17:21.983 25792 25820 I ReactNativeJS: Running "MasterFileManager
+06-02 12:17:21.984 25792 25820 E ReactNativeJS: Invariant Violation: "MasterFileManager" has not been registered. This can happen if:
+06-02 12:17:21.984 25792 25820 E ReactNativeJS: * Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.
+06-02 12:17:21.984 25792 25820 E ReactNativeJS: * A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called., js engine: hermes
+--------- beginning of crash
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: FATAL EXCEPTION: mqt_native_modules
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: Process: com.masterfilemanager, PID: 25792
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: com.facebook.react.common.JavascriptException: TypeError: Cannot read property 'RNFSFileTypeRegular' of null, js engine: hermes, stack:
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: anonymous@1:614396
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: loadModuleImplementation@1:27106
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: guardedLoadModule@1:26630
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: metroRequire@1:26260
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: anonymous@1:609201
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: loadModuleImplementation@1:27106
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: guardedLoadModule@1:26630
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: metroRequire@1:26260
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: anonymous@1:601336
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: loadModuleImplementation@1:27106
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: guardedLoadModule@1:26630
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: metroRequire@1:26260
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: anonymous@1:33311
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: loadModuleImplementation@1:27106
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: guardedLoadModule@1:26587
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: metroRequire@1:26260
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: global@1:25788
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: 
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: 	at com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.java:65)
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: 	at com.facebook.react.bridge.JavaMethodWrapper.invoke(JavaMethodWrapper.java:372)
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: 	at com.facebook.react.bridge.JavaModuleWrapper.invoke(JavaModuleWrapper.java:149)
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.java:29)
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:236)
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$4.run(MessageQueueThreadImpl.java:234)
+06-02 12:17:21.989 25792 25821 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:923)
+06-02 12:17:21.992  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.44981903   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:21.992   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.992  2990  3249 E Launcher.Transfer: transfer is closed
+06-02 12:17:21.993   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:21.995  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:21.996  5404  5585 E OOMEventManager: oom event not support this pkg, dismiss this!
+06-02 12:17:21.998  5404 11154 W MQSEventManager: jeoccur
+06-02 12:17:22.003  5404  5585 W MQSEventManager: begin to storeEvent
+06-02 12:17:22.003  1788  6481 W ActivityTaskManager:   Force finishing activity com.masterfilemanager/.MainActivity
+06-02 12:17:22.004  1788 25827 I DropBoxManagerService: add tag=data_app_crash isTagEnabled=true flags=0x2
+06-02 12:17:22.004  2990 26651 D LauncherFsGestureCompat: componentName is com.masterfilemanager/.MainActivity
+06-02 12:17:22.009   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.009   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.011  5404  5585 D MQSEventManager: send MSG_JUDGE_TRANSMISSION packageName com.masterfilemanager
+06-02 12:17:22.012  5404  5586 D MQSEventManager: begin call thirdappassistant
+06-02 12:17:22.013  3030  3515 I ThirdAppAssistant: ThirdAppAssistantProvider ThirdAppAssistant is queried
+06-02 12:17:22.013  5404  5585 D MQSRuleManager: Begin to match mqsas rules
+06-02 12:17:22.014  5404  5585 W MQSActionExecutor: action is null!
+06-02 12:17:22.014  5404  5585 W MQSEventManager: executeResult is 2
+06-02 12:17:22.020  1788  6481 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-02 12:17:22.020   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-02 12:17:22.020   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:22.020   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:22.020   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:22.020   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:22.020   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:22.020   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-02 12:17:22.020   891   953 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:22.020   891   953 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:22.020   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-02 12:17:22.020   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-02 12:17:22.020   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:22.020   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:22.024  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.025  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.65450853   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:22.025   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.025   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.028 25792 25821 I Process : Sending signal. PID: 25792 SIG: 9
+06-02 12:17:22.029  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.031  2990  2990 D EventBus: No subscribers registered for event class com.miui.home.recents.messages.TaskSnapshotChangedEvent
+06-02 12:17:22.031  2990  2990 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+06-02 12:17:22.042 21174 21192 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:22.044   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.045   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.046  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.050 21174 21208 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:22.052 21174 21208 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:22.057  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10122, uidState = 5
+06-02 12:17:22.057  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10073, uidState = 5
+06-02 12:17:22.058  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.8330059   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:22.058   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.059   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.060  1788  6683 I ActivityManager: Process com.masterfilemanager (pid 25792) has died: fg  TOP 
+06-02 12:17:22.060  1788  1834 I Process : PerfMonitor : current process killing process group. PID: 25792
+06-02 12:17:22.060  1788  1834 I libprocessgroup: Successfully killed process cgroup uid 10354 pid 25792 in 0ms
+06-02 12:17:22.060   718   718 I Zygote  : Process 25792 exited due to signal 9 (Killed)
+06-02 12:17:22.060   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:22.060   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:22.060   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:22.060  1788  6709 I WindowManager: WIN DEATH: Window{2081485 mode=0 rootTaskId=1788 u0 com.masterfilemanager/com.masterfilemanager.MainActivity}
+06-02 12:17:22.060   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:22.060   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:22.060   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:22.060   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:22.060  1788  6709 W InputDispatcher: Attempted to unregister already unregistered input channel '2081485 com.masterfilemanager/com.masterfilemanager.MainActivity (server)'
+06-02 12:17:22.065  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.067   896   916 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 25792
+06-02 12:17:22.067 27826  4104 D MyLog   : -->log(1): [Tid:23496] [KeepAliveManager] -->onProcessDied(), pid=25792, uid=10354
+06-02 12:17:22.067  1788  6683 W ANRStateManager: clear state, but process isn't exist. hash=210246065 uid=10354 pid=25792 state=16
+06-02 12:17:22.067  6526  6584 D MyLog   : -->log(1): [Tid:382] [KeepAliveManager] -->onProcessDied(), pid=25792, uid=10354
+06-02 12:17:22.068  3735  3735 D AppLifecycleObserver: onReceive: com.masterfilemanager DESTROY
+06-02 12:17:22.068  3735  3735 D PkgUtils: getApplicationInfo packageName:com.masterfilemanager, flags:128 applicationInfo:ApplicationInfo{f609d4a com.masterfilemanager} needSecondSpace:false
+06-02 12:17:22.068   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-02 12:17:22.068   896   916 I chatty  : uid=1000(system) HwBinder:896_1 identical 1 line
+06-02 12:17:22.069   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-02 12:17:22.069  3378  3378 D AppLifecycleObserver: onReceive: com.masterfilemanager DESTROY
+06-02 12:17:22.069  3378  3378 D PkgUtils: getApplicationInfo packageName:com.masterfilemanager, flags:128 applicationInfo:ApplicationInfo{41ecfc1 com.masterfilemanager} needSecondSpace:false
+06-02 12:17:22.070  3378  3378 D AppLifecycleObserver: onReceive: com.masterfilemanager DESTROY
+06-02 12:17:22.070   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-02 12:17:22.070   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:22.070   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:22.070   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:22.070   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:22.070   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:22.070   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-02 12:17:22.070   891   953 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:22.070   891   953 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:22.070   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-02 12:17:22.070   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:22.070   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:22.071   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-02 12:17:22.072  3378  3378 D PkgUtils: getApplicationInfo packageName:com.masterfilemanager, flags:128 applicationInfo:ApplicationInfo{41ecfc1 com.masterfilemanager} needSecondSpace:false
+06-02 12:17:22.072  2990  3039 D AppObserver: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10083, mForegroundPid=2990, mLastForegroundPackageName='com.masterfilemanager', mLastForegroundUid=10354, mLastForegroundPid=25792, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-02 12:17:22.072  5955 10424 D p1      : myUserId = 0	currentUserId0
+06-02 12:17:22.072  7713 32396 I GST     : forePkg: com.miui.home, preForePkg: com.masterfilemanager
+06-02 12:17:22.073  7206  8086 I ThermalInfoCollector: collectForgroundAppsInfo
+06-02 12:17:22.073  3591  8225 I octvm_power: power mode [home] start 1780373842
+06-02 12:17:22.063  3591  3591 W Binder:3591_2: type=1400 audit(0.0:277425): avc: denied { search } for name="battery" dev="sysfs" ino=70622 scontext=u:r:mcd:s0 tcontext=u:object_r:vendor_sysfs_battery_supply:s0 tclass=dir permissive=0
+06-02 12:17:22.073  3591  8225 E octvm   : open /sys/class/power_supply/battery/status error, Permission denied
+06-02 12:17:22.073  3591  8225 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-02 12:17:22.073  3591  8225 I octvm_power: Action: set_bcbc_cust_state(disable) for [foreground_change]
+06-02 12:17:22.063  3591  3591 W Binder:3591_2: type=1400 audit(0.0:277426): avc: denied { search } for name="battery" dev="sysfs" ino=70622 scontext=u:r:mcd:s0 tcontext=u:object_r:vendor_sysfs_battery_supply:s0 tclass=dir permissive=0
+06-02 12:17:22.073 27826 27888 D MyLog   : -->log(1): [Tid:23318] [ActivationManager_ac] -->onPackageGoForeground(): packageName=com.miui.home, uid10083, myUid=999, pkgUserId=0
+06-02 12:17:22.073  7206  8100 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10083, mForegroundPid=2990, mLastForegroundPackageName='com.masterfilemanager', mLastForegroundUid=10354, mLastForegroundPid=25792, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-02 12:17:22.073   585   585 E SELinux : avc:  denied  { find } for interface=vendor.xiaomi.hardware.displayfeature::IDisplayFeature sid=u:r:mcd:s0 pid=3591 scontext=u:r:mcd:s0 tcontext=u:object_r:hal_displayfeature_xiaomi_hwservice:s0 tclass=hwservice_manager permissive=0
+06-02 12:17:22.074  5955 17403 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10083, mForegroundPid=2990, mLastForegroundPackageName='com.masterfilemanager', mLastForegroundUid=10354, mLastForegroundPid=25792, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-02 12:17:22.074  3591  8225 E octvm_drv_xm: platform_set_bcbc_cust_state IDisplayFeature getService failed
+06-02 12:17:22.074  3591  8225 E octvm_power: Action set_bcbc_cust_state failed.
+06-02 12:17:22.074  3591  8225 I octvm_power: Action: set_lcd_mode(default) for [foreground_change]
+06-02 12:17:22.074  2990  3233 D MiBridge: requestCpuHighFreq---- uid: 10083 level: 1 timeoutms:500
+06-02 12:17:22.074  2990  2990 D Launcher.Lifecycle: onResume:UserHandle{0},2577498,false
+06-02 12:17:22.074  2990  2990 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+06-02 12:17:22.074   585   585 E SELinux : avc:  denied  { find } for interface=vendor.xiaomi.hardware.displayfeature::IDisplayFeature sid=u:r:mcd:s0 pid=3591 scontext=u:r:mcd:s0 tcontext=u:object_r:hal_displayfeature_xiaomi_hwservice:s0 tclass=hwservice_manager permissive=0
+06-02 12:17:22.074  1461 25676 W MiuiBooster: "MiuiBoosterService requestCpuHighFreq: 10083, 1, 500"
+06-02 12:17:22.074  1461 25676 W MiuiBooster: "requestCpuHighFreq,final level:1,final timeoutms:500"
+06-02 12:17:22.074  1461 25676 W MiuiBooster: "perf_hint_hc start"
+06-02 12:17:22.074  1461 25676 W MiuiBooster: "big_core_value[level-1]:4095"
+06-02 12:17:22.074  1461 25676 W MiuiBooster: "little_core_value[level-1]:4095"
+06-02 12:17:22.074  1461 25676 W MiuiBooster: "prime_core_value[level - 1]:4095"
+06-02 12:17:22.074  3591  8225 E octvm_drv_xm: platform_set_lcd_mode IDisplayFeature getService failed
+06-02 12:17:22.075  3591  8225 E octvm   : open /sys/class/power_supply/battery/status error, Permission denied
+06-02 12:17:22.075  3591  8225 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-02 12:17:22.075  3591  8225 I octvm_power: onPowerModeChanged[home] called
+06-02 12:17:22.075   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.075  2990  2990 D Launcher.FullbackHome: FallbackHomeCompat::needKillSelf::needKillSelf = false
+06-02 12:17:22.075  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:22.075  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController: request, because cloud cached data expired
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController:  mode 2
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController: folder display and try to request recommend list
+06-02 12:17:22.075   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController: Don't request, folder recommend switch off
+06-02 12:17:22.075  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:22.075  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController: request, because cloud cached data expired
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController:  mode 2
+06-02 12:17:22.075 26108 26250 D LauncherOverlay: setActivityState:3
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController: folder display and try to request recommend list
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController: Don't request, folder recommend switch off
+06-02 12:17:22.075  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:22.075  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController: request, because cloud cached data expired
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController:  mode 2
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController: folder display and try to request recommend list
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController: Don't request, folder recommend switch off
+06-02 12:17:22.075  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:22.075  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController: request, because cloud cached data expired
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController:  mode 2
+06-02 12:17:22.075  2990  2990 D Launcher.RecommendController: folder display and try to request recommend list
+06-02 12:17:22.076  2990  2990 D Launcher_UnlockAnimationStateMachine: setState:IDLE
+06-02 12:17:22.063  1788  1788 W Binder:1788_2: type=1400 audit(0.0:277427): avc: denied { read } for name="system" dev="debugfs" ino=4434 scontext=u:r:system_server:s0 tcontext=u:object_r:vendor_debugfs_ion:s0 tclass=file permissive=0
+06-02 12:17:22.076  2990  3386 I RenderThread: RenderThread resumed
+06-02 12:17:22.076  2990  3386 I RenderThread: All controllers paused.
+06-02 12:17:22.076  2990  3386 I RenderThread: RenderThread paused, waiting for signal
+06-02 12:17:22.076 26108 26108 D LauncherOverlay.Window: onResume
+06-02 12:17:22.076  1788  1803 W ActivityHelper: Unable to access /d/ion/heaps/system: Permission denied
+06-02 12:17:22.076  1788  1803 W ActivityHelper: Unable to access /d/ion/ion_mm_heap: No such file or directory
+06-02 12:17:22.077  5955 17403 I GameBoosterService: onForegroundInfoChanged: Cur=com.miui.home	 last=com.masterfilemanager
+06-02 12:17:22.077  1461 25676 W MiuiBooster: "perf_handle:28480"
+06-02 12:17:22.077  2990  3233 D MiBridge: requestCpuHighFreq handle: 1
+06-02 12:17:22.077  2990  3233 D Launcher_CPUBooster: boostCpuToMax:0
+06-02 12:17:22.077  5955 17403 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10083, mForegroundPid=2990, mLastForegroundPackageName='com.masterfilemanager', mLastForegroundUid=10354, mLastForegroundPid=25792, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-02 12:17:22.077  5955 17403 I VideoBoxUtils: isSupportVideoBox: false
+06-02 12:17:22.077  5955 17403 I VideoToolBoxService: vtb is closed!!!
+06-02 12:17:22.078  5955  7593 E SuggestManager: openApp name = com.miui.home
+06-02 12:17:22.078  5955  7593 I NewAutoTaskManager: app use - delay = 9223372036854775807, doRemove = false, doPost = false
+06-02 12:17:22.080  5955 17403 I BeautyService: onForegroundInfoChanged: Cur=com.miui.home	 last=com.masterfilemanager
+06-02 12:17:22.081  1788  6683 I Timeline: Timeline: App_transition_ready time:448976744
+06-02 12:17:22.085 27826  4104 I XMSF-actMonitor_MonitorManager: onActivityResumed: ActivityInfo{name='com.miui.home.launcher.Launcher', pkg='com.miui.home', callerPkg='null', windowMode=-1, displayId=-1, appBounds=Rect(0, 75 - 1080, 2296), duration=-1},activityInfoQueue:30,curMonitorStrategy=
+06-02 12:17:22.085  3735 14362 D services: [XMS][observer] ActivityObserver activityResumed packageName: com.miui.home
+06-02 12:17:22.085 24297 25769 I VA_ActivityStateHelper: activityResumed componentName ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher}
+06-02 12:17:22.086 24297 25769 I VA_ActivityStateHelper: activityResumed mAiSkillPush is false
+06-02 12:17:22.086  3378 15569 D services: [XMS][observer] ActivityObserver activityResumed packageName: com.miui.home
+06-02 12:17:22.086  6526  6584 I XMSF-actMonitor_MonitorManager: onActivityResumed: ActivityInfo{name='com.miui.home.launcher.Launcher', pkg='com.miui.home', callerPkg='null', windowMode=-1, displayId=-1, appBounds=Rect(0, 75 - 1080, 2296), duration=-1},activityInfoQueue:30,curMonitorStrategy=
+06-02 12:17:22.086 31637 31661 D auth    : [XMS][Auth] ActivityObserver activityResumed packageName: com.miui.home
+06-02 12:17:22.087 26997 27045 D auth    : [XMS][Auth] ActivityObserver activityResumed packageName: com.miui.home
+06-02 12:17:22.087  2990  2990 D RecentsImpl: mActivityStateObserver com.miui.home.launcher.Launcher
+06-02 12:17:22.087  2990  2990 W RecentsImpl: onResumed className=com.miui.home.launcher.Launcher   mIsInAnotherPro=false   isKeyguardLocked=false
+06-02 12:17:22.087  2990  2990 D Launcher: notifyBackGestureStatus
+06-02 12:17:22.087  2990  3155 E Launcher: notifyBackGestureStatus:run usingFsGesture=true   show=true   focus=false   pause=false
+06-02 12:17:22.087  2990  3155 D Launcher: notifyFsGestureHomeStatus    enableBackGesture=false   isSupportRecentsAndFsGesture=true
+06-02 12:17:22.088  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.092  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.9576206   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:22.092   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.092   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.093 21495 25830 I Market-LocalAppManager: checkUpdateFromServer : start
+06-02 12:17:22.093 21495 25830 I Market-LocalAppManager: getUpdateInfoFromServer : start,isBackground=true
+06-02 12:17:22.095 21495 25830 I Market-LocalAppManager: getUpdateInfoFromServer : middle
+06-02 12:17:22.096  7206  8100 D UidObserver: onUidGone entry uid = 10354
+06-02 12:17:22.096  1788  2408 I MiuiNetworkPolicy: removeUidState uid = 10354
+06-02 12:17:22.096  1788  2408 I MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic uid=10354,add=false
+06-02 12:17:22.098  2990  3155 W RecentsImpl: updateFsgWindowVisibilityState   isEnter=false   typeFrom=typefrom_home   isOpen=true   mIsInAnotherPro=false   mIsStatusBarExpansion=false
+06-02 12:17:22.098  2990  3155 W RecentsImpl: getTopActivity from observer.   cn=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher}
+06-02 12:17:22.098  2990  3186 D RecentsImpl: showNavStubView
+06-02 12:17:22.098  2990  3177 D RecentsImpl: hideBackStubWindow
+06-02 12:17:22.098  2990  3186 D NavStubView_Touch: setKeepHidden    old=false   new=false
+06-02 12:17:22.098  1788  2408 D MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic rst=true
+06-02 12:17:22.098 21495 25830 I Market-RetrofitRequest: callStart : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2
+06-02 12:17:22.100 23277 23969 D IdProviderImpl: getOAID
+06-02 12:17:22.105  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.108   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.108   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.113  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.115  2657  3045 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-02 12:17:22.118 21495 25830 I Market-RetrofitRequest: HeaderInterceptor : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2
+06-02 12:17:22.122 21495 25830 I Market-Client: isSupportIsland: false
+06-02 12:17:22.123 21495 25830 I Market-Client: getNotificationFocusProtocol: OS
+06-02 12:17:22.125   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.125  2990  2990 E BlurUtils: fastBlurDirectly ratio=1.0   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:22.125   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.126  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.126 21495 25830 I Market-RetrofitRequest: dnsStart : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2
+06-02 12:17:22.128 21495 25830 I Market-RetrofitRequest: dnsEnd : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2
+06-02 12:17:22.128 21495 25830 I Market-RetrofitRequest: connectStart : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2
+06-02 12:17:22.129  2657  4057 D CommandQueue: setStatus: setStatus: what = 0, action = upate_specail_mode, ext = Bundle[mParcelledData.dataSize=92][pkg = com.miui.home[enable_config = true
+06-02 12:17:22.136 23277 23969 D IdProviderImpl: getOAID
+06-02 12:17:22.142   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.142   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.145  2657  2682 I ndroid.systemu: NativeAlloc concurrent copying GC freed 240391(11MB) AllocSpace objects, 15(340KB) LOS objects, 49% free, 13MB/26MB, paused 78us total 111.913ms
+06-02 12:17:22.145  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.150  2657  2684 W System  : A resource failed to call release. 
+06-02 12:17:22.152  2657  2684 W System  : A resource failed to call release. 
+06-02 12:17:22.158   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.160   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.160 21495 21509 W m.xiaomi.marke: Reducing the number of considered missed Gc histogram windows from 153 to 100
+06-02 12:17:22.160  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.175   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.175   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.175   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.176   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.176  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.176  2990  3155 D StatusBarController: handleMessage: flag 800000  disable false
+06-02 12:17:22.176  2990  2990 D Launcher_WallpaperUtils: changeStatusBarMode:false
+06-02 12:17:22.191   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.191   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.196  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.209   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.209   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.209   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.209   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.210  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.225   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.225   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.229  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.241   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.241   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.243  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.250 21495 25830 I Market-RetrofitRequest: connectEnd : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2, IP = 220.181.106.32
+06-02 12:17:22.251 21495 25830 I Market-LimitSpeedManager: startLimitSpeedNow() ====== speed = 32768
+06-02 12:17:22.253  4111  5798 I XLDownloadManager: debug: XLDownloadManager::setSpeedLimit beg, maxDownloadSpeed=[32768] maxUploadSpeed=[-1] [XLDownloadManager.java:1517 - com.xunlei.downloadlib.XLDownloadManager.setSpeedLimit] []
+06-02 12:17:22.253  4111  5798 I XLDownloadManager: debug: XLDownloadManager::setSpeedLimit end, maxDownloadSpeed=[32768] maxUploadSpeed=[-1] ret=[9000] [XLDownloadManager.java:1525 - com.xunlei.downloadlib.XLDownloadManager.setSpeedLimit] []
+06-02 12:17:22.254  4111  5798 D DMS_LimitSpeedService: limit speed(32.00KB/s) success 
+06-02 12:17:22.254 21495 25830 I Market-DownloadLimitSpeedManager: startLimitSpeed success. Total count 1
+06-02 12:17:22.254 21495 25830 I Market-RetrofitRequest: HeaderInterceptor : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2
+06-02 12:17:22.258   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.258   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.260  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.264  4111  4123 W d.process.medi: Reducing the number of considered missed Gc histogram windows from 153 to 100
+06-02 12:17:22.275   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.275   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.276  2990  3249 E Launcher.Transfer: transfer is closed
+06-02 12:17:22.276  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.291   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.292   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.293  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.308   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.308   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.310  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.325   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.325   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.326  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.341   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.342   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.343  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.355  1788  2561 D SchedBoost: thread tid=2990, priority is set to -10
+06-02 12:17:22.355  1788  2561 D SchedBoost: thread tid=3200, priority is set to -10
+06-02 12:17:22.355  1788  2561 W SchedBoost: has reset SchedAffinity render thread: 3200
+06-02 12:17:22.355  1788  2561 W SchedBoost: SchedBoost end: proc: 2990/3200 696 aff:[0, 1, 2, 3, 4, 5, 6, 7]
+06-02 12:17:22.358   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.358   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.359  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.375   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.375   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.376  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.391   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.392   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:22.392  2990  3186 W DimLayer: removeDimLayer
+06-02 12:17:22.393  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.393  2990  2990 E BlurUtils: fastBlur ratio=0.0   withAnim=false   sBlurRatioValue=1.0
+06-02 12:17:22.393  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.0   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:22.396  1788  2640 I Timeline: Timeline: App_transition_stopped time:448977058
+06-02 12:17:22.398  2990  3177 D GestureStubView_Touch: setKeepHidden    old=false   new=true
+06-02 12:17:22.398  2990  3177 D GestureStubView_Touch: updateTouchable    old=false   new=true
+06-02 12:17:22.398  2990  3177 D GestureStubView_Touch:   updateTouchable---requestApplyInsets
+06-02 12:17:22.399  1788  1823 W ActivityManager: setHasOverlayUi called on unknown pid: 25792
+06-02 12:17:22.399  2990  3177 D GestureStubView_Touch: disableTouch    old=false   new=true
+06-02 12:17:22.399  2990  3177 D GestureStubView_Touch: updateTouchable    old=true   new=true
+06-02 12:17:22.399  2990  3177 D GestureStubView: hideGestureStub
+06-02 12:17:22.399  2990  2990 E LauncherAnimationRunner: finish: mFinishRunnable.run
+06-02 12:17:22.399  2990  3177 D GestureStubView_Touch: setKeepHidden    old=false   new=true
+06-02 12:17:22.399  2990  3177 D GestureStubView_Touch: updateTouchable    old=false   new=true
+06-02 12:17:22.399  2990  3177 D GestureStubView_Touch:   updateTouchable---requestApplyInsets
+06-02 12:17:22.399  2990  3177 D GestureStubView_Touch: disableTouch    old=false   new=true
+06-02 12:17:22.399  2990  3177 D GestureStubView_Touch: updateTouchable    old=true   new=true
+06-02 12:17:22.399  2990  3177 D GestureStubView: hideGestureStub
+06-02 12:17:22.411  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.414  2990  2990 E RotationHelper: setCurrentTransitionRequest: request=0
+06-02 12:17:22.427  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.427  2990  2990 D Launcher.Lifecycle: onWindowFocusChanged:true,UserHandle{0},2577498,false
+06-02 12:17:22.427  2990  2990 D Launcher_UnlockAnimationStateMachine: onWindowFocus:IDLE
+06-02 12:17:22.429  2657  2657 D NotifBadge: recevie broadbcast ACTION_APPLICATION_MESSAGE_QUERY, requestFirstTime=false
+06-02 12:17:22.443  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.592  2622  2730 I chatty  : uid=10137(com.miui.miwallpaper) ImageWallpaper identical 9 lines
+06-02 12:17:22.609  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.610 21495 25830 I Market-DownloadLimitSpeedManager: stopLimitSpeed
+06-02 12:17:22.610 21495 25830 I Market-LimitSpeedManager: stopLimitSpeedNow() =========== 
+06-02 12:17:22.612  4111  5798 I XLDownloadManager: debug: XLDownloadManager::setSpeedLimit beg, maxDownloadSpeed=[-1] maxUploadSpeed=[-1] [XLDownloadManager.java:1517 - com.xunlei.downloadlib.XLDownloadManager.setSpeedLimit] []
+06-02 12:17:22.612  4111  5798 I XLDownloadManager: debug: XLDownloadManager::setSpeedLimit end, maxDownloadSpeed=[-1] maxUploadSpeed=[-1] ret=[9000] [XLDownloadManager.java:1525 - com.xunlei.downloadlib.XLDownloadManager.setSpeedLimit] []
+06-02 12:17:22.612  4111  5798 D DMS_LimitSpeedService: exit limit speed(-1.00B/s) success 
+06-02 12:17:22.612 21495 25830 I Market-RetrofitRequest: callEnd : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2
+06-02 12:17:22.613 21495 25830 I Market-LocalAppManager: getUpdateInfoFromServer : end  , responseCode : OK
+06-02 12:17:22.613 21495 25830 I Market-LocalAppManager: checkUpdateFromServer : end
+06-02 12:17:22.613 21495 25830 I Market-LocalAppManager: checkUpdateFromServer  data parser : end
+06-02 12:17:22.613 21495 25830 I Market-HuanjiManager: condition not satisfied, ignore
+06-02 12:17:22.613 21495 25830 I Market-DataParser: [InvalidPackageList] JSON : invalidSystemPackageList list is null
+06-02 12:17:22.613 21495 25830 I Market-LocalAppManager: checkUpdateFromServer  filter package : end
+06-02 12:17:22.613 21495 25830 I Market-LocalAppManager: checkUpdateFromServer  support64BitPackagesJsonArray : end
+06-02 12:17:22.613 21495 25830 I Market-OneTrackParams: useExpId=2329827,2346055,1978999,2075312,expId=2023001,2311551,2346055,2075312,2378691,2363640,2329827,2333160,1411227,1978999
+06-02 12:17:22.615  3030  3071 W BpBinder: PerfMonitor binderTransact :  time=558ms interface=android.content.IContentProvider code=21
+06-02 12:17:22.615  3030  3071 I ThirdAppAssistant: AppStoreHelper queryPackageInfo result=1 oldVersionName=1.0.0 oldVersionCode=1
+06-02 12:17:22.615 21174 21208 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:22.616 23277 23969 D IdProviderImpl: getOAID
+06-02 12:17:22.617 21174 21208 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:22.618 23277 23969 D IdProviderImpl: getOAID
+06-02 12:17:22.619 21174 21192 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:22.620 23277 23969 D IdProviderImpl: getOAID
+06-02 12:17:22.621 21174 21192 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:22.623 21174 21192 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:22.624  3030  3071 I ThirdAppAssistant: ExceptionManager match exception type failed for com.masterfilemanager
+06-02 12:17:22.626  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:22.976  2622  2730 I chatty  : uid=10137(com.miui.miwallpaper) ImageWallpaper identical 21 lines
+06-02 12:17:22.992  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:23.009  7437 25585 D AppOpsAdapter: using permission notify! 32 , groundState 1 , suggestNoticePermUse false
+06-02 12:17:23.010  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:23.042  2622  2730 I chatty  : uid=10137(com.miui.miwallpaper) ImageWallpaper identical 2 lines
+06-02 12:17:23.043  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:23.338  7437 25585 D AppOpsAdapter: using permission notify! 32 , groundState 1 , suggestNoticePermUse false
+06-02 12:17:23.340  7437 17872 D AppOpsAdapter: using permission notify! 32 , groundState 1 , suggestNoticePermUse false
+06-02 12:17:23.618  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10122, uidState = 15
+06-02 12:17:23.618  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10073, uidState = 15
+06-02 12:17:25.842  1788  5190 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-02 12:17:27.084  1788  6683 W ActivityHelper: Unable to access /d/ion/heaps/system: Permission denied
+06-02 12:17:27.084  1788  6683 W ActivityHelper: Unable to access /d/ion/ion_mm_heap: No such file or directory
+06-02 12:17:27.073  1788  1788 W Binder:1788_1D: type=1400 audit(0.0:277430): avc: denied { read } for name="system" dev="debugfs" ino=4434 scontext=u:r:system_server:s0 tcontext=u:object_r:vendor_debugfs_ion:s0 tclass=file permissive=0
+06-02 12:17:28.518  2990  2990 D EventBus: No subscribers registered for event class com.miui.home.launcher.common.messages.EndSpringAnimatorMessage
+06-02 12:17:28.519  2990  2990 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+06-02 12:17:28.519  2990  2990 D Launcher.Feed: touchState : 0 scrolling : false normalEditing : false WidgetThumbnailViewShowing : false UninstallDialogShowing : false isMinusScreenShowing: false
+06-02 12:17:28.520  2990  2990 D Launcher.StatusBarController: try intercept touch, isProxySurvive=true
+06-02 12:17:28.520   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.520   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.520   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.520   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.520   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.520   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-02 12:17:28.520   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-02 12:17:28.520   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:28.520   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:28.520   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.520   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:28.521  2990  2990 D Launcher.Workspace: Workspace touch down
+06-02 12:17:28.521  2990  2990 D ScreenView_Workspace: onIntercept:0.0
+06-02 12:17:28.521  2990  2990 D ScreenView_Workspace: not intercept
+06-02 12:17:28.521  2990  2990 D Launcher.CellLayout: touch item:ShortcutInfo, id=594, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.masterfilemanager, className=com.masterfilemanager.MainActivity, screenId=2, container=-100, cellX=3, cellY=5, spanX=1, spanY=1
+06-02 12:17:28.522  2990  2990 D Launcher.itemIcon: folmeDown
+06-02 12:17:28.522  1788  2561 W SchedBoost: SchedBoost begin: proc: 2990/3200, mode: 2 aff:[4, 5, 6]
+06-02 12:17:28.528  2990  5832 D Launcher.Boost: bindcore 200
+06-02 12:17:28.546   992   992 W SurfaceFlingerInspector: slow HwComposer, duration=8s, total=120, timeOut=71, Max=6ms, timeOutAvg=5ms.
+06-02 12:17:28.612  2990  2990 D Launcher.Workspace: Workspace touch up or cancel
+06-02 12:17:28.612  2990  2990 D ScreenView_Workspace: oninterceput up
+06-02 12:17:28.612  2990  3386 I RenderThread: RenderThread resumed
+06-02 12:17:28.612  2990  3386 I RenderThread: All controllers paused.
+06-02 12:17:28.612  2990  3386 I RenderThread: RenderThread paused, waiting for signal
+06-02 12:17:28.612  2990  2990 D Launcher.itemIcon: folmeUp
+06-02 12:17:28.613  2990  2990 E QuickstepAppTransitionManagerImpl: getActivityLaunchOptions   iconLoc=Rect(655, 1586 - 843, 1774)
+06-02 12:17:28.614  2990  2990 I Timeline: Timeline: Activity_launch_request time:448983277
+06-02 12:17:28.616  1788  6683 W XSpaceManagerService: checkXSpaceControl, from:com.miui.home, to:com.masterfilemanager, with act:android.intent.action.MAIN, callingUserId:0, toUserId:0
+06-02 12:17:28.618  1788  6683 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.masterfilemanager/.MainActivity bnds=[655,1586][843,1774] (has extras)} from uid 10083
+06-02 12:17:28.618  1788  6683 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.xiaomi.smarthome, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.appsomniacs.da2, com.miHoYo.Yuanshen, com.baidu.BaiduMap, com.google.android.googlequicksearchbox]
+06-02 12:17:28.619   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-02 12:17:28.620   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-02 12:17:28.620   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.620   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.620   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.620   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.620   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.620   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:28.620   891   953 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:28.621   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.621   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.621   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.621   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.621   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.621   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.621   891   891 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:28.621   891   891 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:28.621   891   891 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.masterfilemanager feature:AppClassifier feedback = 1
+06-02 12:17:28.621   891   953 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:28.621   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.621   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.621   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.621   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: hintType: 2
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: isPrimary = 0
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,com.masterfilemanager,-1,1788,6683)
+06-02 12:17:28.621   891   953 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:28.621  1788  6683 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: hintType: 3
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: isPrimary = 0
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,com.masterfilemanager,-1,1788,6683)
+06-02 12:17:28.621   891   953 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.621   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:28.626   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.626   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.626   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.626   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.626   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.626   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:28.626   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:28.626   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.626   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:28.626   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.626   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.626   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.626   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.626   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.626   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:28.626   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:28.626   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.626   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:28.628   890   912 E ANDR-IOP: io prefetch is disabled
+06-02 12:17:28.629  1788  6683 D CompatibilityInfo: mCompatibilityFlags - 0
+06-02 12:17:28.629  1788  6683 D CompatibilityInfo: applicationDensity - 440
+06-02 12:17:28.629  1788  6683 D CompatibilityInfo: applicationScale - 1.0
+06-02 12:17:28.630   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-02 12:17:28.630   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.630   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.630   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.630   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.630   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.630   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-02 12:17:28.630   891   953 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:28.630   891   953 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:28.630   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-02 12:17:28.630   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.630   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:28.630  1788  6683 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-02 12:17:28.630   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-02 12:17:28.630   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.630   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.630   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.630   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.630   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.630   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-02 12:17:28.630   891   953 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:28.630   891   953 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:28.630   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-02 12:17:28.630   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.630   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:28.630   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-02 12:17:28.636  2990  2990 D Launcher.Lifecycle: onPause:UserHandle{0},2577498,true
+06-02 12:17:28.636  2990  2990 D Launcher_UnlockAnimationStateMachine: setState:PAUSE_WAIT
+06-02 12:17:28.636 26108 26250 D LauncherOverlay: setActivityState:1
+06-02 12:17:28.636 26108 26108 D LauncherOverlay.Window: onPause
+06-02 12:17:28.638  1788  1824 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-02 12:17:28.639   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-02 12:17:28.640 23277 23969 D IdProviderImpl: getOAID
+06-02 12:17:28.640   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.640   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.640   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.640   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.640   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.640   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-02 12:17:28.640   891   953 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:28.640   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-02 12:17:28.640   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-02 12:17:28.640   891   953 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:28.641   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-02 12:17:28.641   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.641   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:28.647  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.650 21174 21186 W settings:remot: Reducing the number of considered missed Gc histogram windows from 154 to 100
+06-02 12:17:28.651  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10354, uidState = 19
+06-02 12:17:28.643  1418  1418 W Binder:1418_B: type=1400 audit(0.0:277431): avc: denied { search } for name="829" dev="proc" ino=8738256 scontext=u:r:cameraserver:s0 tcontext=u:r:hal_camera_default:s0 tclass=dir permissive=0
+06-02 12:17:28.660  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.662   718   718 D Zygote  : Forked child process 25863
+06-02 12:17:28.663  2842  2842 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-02 12:17:28.664  5437  5437 D NfcService: Received android.intent.action.BATTERY_CHANGED
+06-02 12:17:28.665  2657  2657 D BatteryController: onReceive: Intent = Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } action = android.intent.action.BATTERY_CHANGED
+06-02 12:17:28.666  5955  5955 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+06-02 12:17:28.666  2657  2657 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-02 12:17:28.666 25863 25863 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+06-02 12:17:28.666  7206  7471 D PowerKeeper.FrozenApp: onBatteryChanged plug=true mBatteryPlugged=2
+06-02 12:17:28.666  5955  5955 I PowerSaveService: onReceive: android.intent.action.BATTERY_CHANGED
+06-02 12:17:28.666  7206  8054 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 100, status = 5, level = 100, plug = 2, scale = 100
+06-02 12:17:28.666  5955  5955 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 100 mBatteryLevel 100 temperature 325
+06-02 12:17:28.666  1788  1833 I ActivityManager: Start proc 25863:com.masterfilemanager/u0a354 for pre-top-activity {com.masterfilemanager/com.masterfilemanager.MainActivity} caller=com.miui.home
+06-02 12:17:28.667  8945  8972 D DeviceStatusManager: isGreenKidActive:true
+06-02 12:17:28.667  2888  2888 D DeviceStatisticsService: chargerType=2 batteryLevel=100 totalBatteryCapacity=3312000
+06-02 12:17:28.667  2888  2888 D DeviceInfoHidlClient: isPowerInfoNeverSent()=true
+06-02 12:17:28.677  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.677 25863 25863 E sterfilemanage: Not starting debugger since process cannot load the jdwp agent.
+06-02 12:17:28.684   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.684   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.684   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.684   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.684   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.684   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-02 12:17:28.684   891   953 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-02 12:17:28.684   891   953 I ANDR-PERF-LM: hintType: 103
+06-02 12:17:28.684   891   953 I ANDR-PERF-LM: isPrimary = 0
+06-02 12:17:28.684   891   953 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 103,com.masterfilemanager,25863,1788,3119)
+06-02 12:17:28.684   891   953 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-02 12:17:28.684   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-02 12:17:28.684   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.684   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:28.685  1788  3119 D CompatibilityInfo: mCompatibilityFlags - 0
+06-02 12:17:28.685  1788  3119 D CompatibilityInfo: applicationDensity - 440
+06-02 12:17:28.685  1788  3119 D CompatibilityInfo: applicationScale - 1.0
+06-02 12:17:28.686  1788  3119 D CompatibilityInfo: mCompatibilityFlags - 0
+06-02 12:17:28.686  1788  3119 D CompatibilityInfo: applicationDensity - 440
+06-02 12:17:28.686  1788  3119 D CompatibilityInfo: applicationScale - 1.0
+06-02 12:17:28.683  3591  3591 W Binder:3591_2: type=1400 audit(0.0:277432): avc: denied { search } for name="battery" dev="sysfs" ino=70622 scontext=u:r:mcd:s0 tcontext=u:object_r:vendor_sysfs_battery_supply:s0 tclass=dir permissive=0
+06-02 12:17:28.687   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-02 12:17:28.687   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-02 12:17:28.687  5955  7638 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.masterfilemanager', mForegroundUid=10354, mForegroundPid=25863, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10083, mLastForegroundPid=2990, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-02 12:17:28.687  2990 26651 D AppObserver: ForegroundInfo{mForegroundPackageName='com.masterfilemanager', mForegroundUid=10354, mForegroundPid=25863, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10083, mLastForegroundPid=2990, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-02 12:17:28.688  5955  5983 D p1      : myUserId = 0	currentUserId0
+06-02 12:17:28.688  7713 32396 I GST     : forePkg: com.masterfilemanager, preForePkg: com.miui.home
+06-02 12:17:28.688  7206  9275 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.masterfilemanager', mForegroundUid=10354, mForegroundPid=25863, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10083, mLastForegroundPid=2990, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-02 12:17:28.688  7206  8086 I ThermalInfoCollector: collectForgroundAppsInfo
+06-02 12:17:28.688  5955  7638 I GameBoosterService: onForegroundInfoChanged: Cur=com.masterfilemanager	 last=com.miui.home
+06-02 12:17:28.688  5955  7638 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.masterfilemanager', mForegroundUid=10354, mForegroundPid=25863, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10083, mLastForegroundPid=2990, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-02 12:17:28.688  5955  7638 I VideoBoxUtils: isSupportVideoBox: false
+06-02 12:17:28.688  5955  7638 I VideoToolBoxService: vtb is closed!!!
+06-02 12:17:28.689  3591  8225 I octvm_power: power mode [normal] start 1780373848
+06-02 12:17:28.689  3591  8225 E octvm   : open /sys/class/power_supply/battery/status error, Permission denied
+06-02 12:17:28.689  3591  8225 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-02 12:17:28.689  3591  8225 I octvm_power: Action: set_bcbc_cust_state(disable) for [foreground_change]
+06-02 12:17:28.689  5955  7593 E SuggestManager: openApp name = com.masterfilemanager
+06-02 12:17:28.689  5955  7593 I NewAutoTaskManager: app use - delay = 9223372036854775807, doRemove = false, doPost = false
+06-02 12:17:28.689   585   585 E SELinux : avc:  denied  { find } for interface=vendor.xiaomi.hardware.displayfeature::IDisplayFeature sid=u:r:mcd:s0 pid=3591 scontext=u:r:mcd:s0 tcontext=u:object_r:hal_displayfeature_xiaomi_hwservice:s0 tclass=hwservice_manager permissive=0
+06-02 12:17:28.683  3591  3591 W Binder:3591_2: type=1400 audit(0.0:277433): avc: denied { search } for name="battery" dev="sysfs" ino=70622 scontext=u:r:mcd:s0 tcontext=u:object_r:vendor_sysfs_battery_supply:s0 tclass=dir permissive=0
+06-02 12:17:28.689  3591  8225 E octvm_drv_xm: platform_set_bcbc_cust_state IDisplayFeature getService failed
+06-02 12:17:28.689  3591  8225 E octvm_power: Action set_bcbc_cust_state failed.
+06-02 12:17:28.689  3591  8225 I octvm_power: Action: set_lcd_mode(default) for [foreground_change]
+06-02 12:17:28.689   585   585 E SELinux : avc:  denied  { find } for interface=vendor.xiaomi.hardware.displayfeature::IDisplayFeature sid=u:r:mcd:s0 pid=3591 scontext=u:r:mcd:s0 tcontext=u:object_r:hal_displayfeature_xiaomi_hwservice:s0 tclass=hwservice_manager permissive=0
+06-02 12:17:28.690  3591  8225 E octvm_drv_xm: platform_set_lcd_mode IDisplayFeature getService failed
+06-02 12:17:28.691  3591  8225 E octvm   : open /sys/class/power_supply/battery/status error, Permission denied
+06-02 12:17:28.691  3591  8225 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-02 12:17:28.691  3591  8225 I octvm_power: onPowerModeChanged[normal] called
+06-02 12:17:28.696  1788  2561 W SchedBoost: SchedBoost continue: proc: 2990/3200
+06-02 12:17:28.696  1788  1824 I Timeline: Timeline: App_transition_ready time:448983359
+06-02 12:17:28.700  2990 26651 W System.err: java.lang.NoSuchFieldException: android.view.RemoteAnimationTarget#packageName
+06-02 12:17:28.700  2990 26651 W System.err: 	at miui.util.ReflectionUtils.findField(ReflectionUtils.java:105)
+06-02 12:17:28.701  2657  3045 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-02 12:17:28.700  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationTargetCompat.<init>(RemoteAnimationTargetCompat.java:69)
+06-02 12:17:28.703  2990  2990 D Launcher.Lifecycle: onWindowFocusChanged:false,UserHandle{0},2577498,true
+06-02 12:17:28.703  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.704  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationTargetCompat.wrap(RemoteAnimationTargetCompat.java:99)
+06-02 12:17:28.704  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationAdapterCompat$1.onAnimationStart(RemoteAnimationAdapterCompat.java:50)
+06-02 12:17:28.704  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationAdapterCompat$1.onAnimationStart(RemoteAnimationAdapterCompat.java:68)
+06-02 12:17:28.704  2990 26651 W System.err: 	at android.view.IRemoteAnimationRunner$Stub.onTransact(IRemoteAnimationRunner.java:108)
+06-02 12:17:28.704  2990 26651 W System.err: 	at android.os.Binder.execTransactInternal(Binder.java:1162)
+06-02 12:17:28.704  2990 26651 W System.err: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-02 12:17:28.704  2990 26651 W System.err: java.lang.NoSuchFieldException: android.view.RemoteAnimationTarget#packageName
+06-02 12:17:28.704  2990 26651 W System.err: 	at miui.util.ReflectionUtils.findField(ReflectionUtils.java:105)
+06-02 12:17:28.704  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationTargetCompat.<init>(RemoteAnimationTargetCompat.java:69)
+06-02 12:17:28.704  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationTargetCompat.wrap(RemoteAnimationTargetCompat.java:99)
+06-02 12:17:28.704  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationAdapterCompat$1.onAnimationStart(RemoteAnimationAdapterCompat.java:50)
+06-02 12:17:28.704 25863 25863 I Perf    : Connecting to perf service.
+06-02 12:17:28.704  2990 26651 W System.err: 	at com.android.systemui.shared.recents.system.RemoteAnimationAdapterCompat$1.onAnimationStart(RemoteAnimationAdapterCompat.java:68)
+06-02 12:17:28.704  2990 26651 W System.err: 	at android.view.IRemoteAnimationRunner$Stub.onTransact(IRemoteAnimationRunner.java:108)
+06-02 12:17:28.704  2990 26651 W System.err: 	at android.os.Binder.execTransactInternal(Binder.java:1162)
+06-02 12:17:28.704  2990 26651 W System.err: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-02 12:17:28.704  2990 26651 E LauncherAnimationRunner: onAnimationStart
+06-02 12:17:28.704  2990 26651 E LauncherAnimationRunner: onAnimationStart:   mode=1   taskId=2   isTranslucent=false
+06-02 12:17:28.704  2990 26651 E LauncherAnimationRunner: onAnimationStart:   mode=0   taskId=1789   isTranslucent=false
+06-02 12:17:28.705  2990  2990 E QuickstepAppTransitionManagerImpl: startIconLaunchAnimator:launcherClosing=true   iconLoc=Rect(655, 1586 - 843, 1774)
+06-02 12:17:28.705  2990  2990 E QuickstepAppTransitionManagerImpl: startOpeningWindowAnimators:iconLoc=Rect(655, 1586 - 843, 1774)
+06-02 12:17:28.705  2990  2990 E ClipAnimationHelper: updateSourceStack  mSourceInsets=Rect(0, 0 - 0, 44), mSourceStackBounds=Rect(0, 0 - 1080, 2340)
+06-02 12:17:28.705  2990  2990 E ClipAnimationHelper: updateHomeStack  mSourceInsets=Rect(0, 0 - 0, 44), mHomeStackBounds=Rect(0, 0 - 1080, 2340)
+06-02 12:17:28.705  2990  2990 E ClipAnimationHelper: updateTargetRect  mSourceRect=RectF(0.0, 0.0, 1080.0, 2340.0)   mTargetRect=RectF(0.0, 0.0, 1080.0, 2340.0)   mSourceWindowClipInsets=RectF(0.0, 0.0, 0.0, 0.0)   mHomeStackBounds=Rect(0, 0 - 1080, 2340)   targetRect=Rect(0, 0 - 1080, 2340)
+06-02 12:17:28.705  2990  2990 I QuickstepAppTransitionManagerImpl: startOpeningWindowAnimators, currentDisplayRotation=0, homeRotation=0, startRectF=RectF(662.0, 1593.0, 836.0, 1767.0), endRectF=RectF(0.0, 0.0, 1080.0, 2340.0), startRadius = 248.27588, endRadius = 96.0, isUseTranslucentAnim = false
+06-02 12:17:28.706 27826 27888 D MyLog   : -->log(1): [Tid:23318] [ActivationManager_ac] -->onPackageGoForeground(): packageName=com.masterfilemanager, uid10354, myUid=999, pkgUserId=0
+06-02 12:17:28.706  2990  2990 W DimLayer: createDimLayer
+06-02 12:17:28.706  2990  5965 W FloatingIconLayer: getFloatingIconLayer
+06-02 12:17:28.706  2990  2990 E QuickstepAppTransitionManagerImpl: startLauncherContentAnimator:isAppOpening=true
+06-02 12:17:28.706  2990  2990 E BlurUtils: fastBlur ratio=1.0   withAnim=true   sBlurRatioValue=0.0
+06-02 12:17:28.708  2990  5965 W FloatingIconLayer: drawIcon
+06-02 12:17:28.709  5955  7638 I BeautyService: onForegroundInfoChanged: Cur=com.masterfilemanager	 last=com.miui.home
+06-02 12:17:28.710  3378  3378 D AppLifecycleObserver: onReceive: com.masterfilemanager FOREGROUND
+06-02 12:17:28.710  3378  3378 I GameEventTag: notify failed, pkg=com.masterfilemanager event=3 version not match
+06-02 12:17:28.712  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.714 24297 24340 D VA_ActivityUtils: getTopActivity packageName:ComponentInfo{com.masterfilemanager/com.masterfilemanager.MainActivity}
+06-02 12:17:28.714 24297 24340 D VA_AppStateWatcher: currentPkgName:com.masterfilemanager, className:com.masterfilemanager.MainActivity, lastPkgName:com.masterfilemanager
+06-02 12:17:28.714 24297 24340 E VA_AppStateWatcher: handleMessage: return!
+06-02 12:17:28.715  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10354, uidState = 2
+06-02 12:17:28.715  1788  2408 I MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic uid=10354,add=true
+06-02 12:17:28.715  1788  2408 D MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic rst=true
+06-02 12:17:28.716  3378  3378 D PkgUtils: getApplicationInfo packageName:com.masterfilemanager, flags:128 applicationInfo:ApplicationInfo{41ecfc1 com.masterfilemanager} needSecondSpace:false
+06-02 12:17:28.717  3378  3378 D AppLifecycleObserver: onReceive: com.masterfilemanager FOREGROUND
+06-02 12:17:28.717  3378  3378 I GameEventTag: notify failed, pkg=com.masterfilemanager event=3 version not match
+06-02 12:17:28.717  3735  3735 D AppLifecycleObserver: onReceive: com.masterfilemanager FOREGROUND
+06-02 12:17:28.717  3735  3735 I GameEventTag: notify failed, pkg=com.masterfilemanager event=3 version not match
+06-02 12:17:28.718  3378  3378 D PkgUtils: getApplicationInfo packageName:com.masterfilemanager, flags:128 applicationInfo:ApplicationInfo{41ecfc1 com.masterfilemanager} needSecondSpace:false
+06-02 12:17:28.718 25863 25863 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-02 12:17:28.718 25863 25863 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-02 12:17:28.720  3735  3735 D PkgUtils: getApplicationInfo packageName:com.masterfilemanager, flags:128 applicationInfo:ApplicationInfo{f609d4a com.masterfilemanager} needSecondSpace:false
+06-02 12:17:28.723   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.724  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.01136592   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:28.724   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.725 25863 25863 I ContentProviderMonitor: PerfMonitor installContentProviders : before publish content providers
+06-02 12:17:28.726  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.726  2990  5832 D Launcher.Boost: bindcore 89
+06-02 12:17:28.730 25863 25863 V SoLoader: Init System Loader delegate
+06-02 12:17:28.730   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.730   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.730   891   891 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:28.731   891   891 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:28.731   891   891 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.masterfilemanager feature:AppClassifier feedback = 1
+06-02 12:17:28.733   992  3258 W DisplayIdentification: Invalid EDID: falling back to serial number due to missing display name.
+06-02 12:17:28.733   992  3258 W DisplayIdentification: Invalid EDID: falling back to ASCII text due to missing serial number.
+06-02 12:17:28.738 25863 25863 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+06-02 12:17:28.740   992   992 E Layer   : setupBlurSurface setupBlurSurface com.miui.home/com.miui.home.launcher.Launcher#0
+06-02 12:17:28.740   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.742  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.742  2990  3039 D RecentsModel: onTaskStackChangedBackground
+06-02 12:17:28.743  2990  3265 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+06-02 12:17:28.743  2990  3265 D RecentsModel: preloadRecents
+06-02 12:17:28.743  2990  3265 W RecentsModel: getRunningTask
+06-02 12:17:28.744  2990  3265 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 pcFlags:0 stackId=1789 taskId=1789 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.masterfilemanager/.MainActivity } baseActivity=ComponentInfo{com.masterfilemanager/com.masterfilemanager.MainActivity} topActivity=ComponentInfo{com.masterfilemanager/com.masterfilemanager.MainActivity} origActivity=null realActivity=ComponentInfo{com.masterfilemanager/com.masterfilemanager.MainActivity} numActivities=1 lastActiveTime=918276278 supportsSplitScreenMultiWindow=true resizeMode=1 isResizeable=true token=android.window.WindowContainerToken@a53227b topActivityType=1 pictureInPictureParams=null topActivityInfo=ActivityInfo{95898 com.masterfilemanager.MainActivity} windowMode=1
+06-02 12:17:28.744  2990  3265 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.masterfilemanager/com.masterfilemanager.MainActivity}
+06-02 12:17:28.745  5955  7638 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-02 12:17:28.745  2990  3265 E ActivityManagerWrapper: get all recent tasks force including 1789
+06-02 12:17:28.745  2990  3265 E ActivityManagerWrapper: getRecentTasks: size=5
+06-02 12:17:28.746  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1789   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.masterfilemanager/.MainActivity }
+06-02 12:17:28.746  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1776   userId=0   baseIntent=Intent { flg=0x10800000 cmp=com.android.settings/.Settings$UsbDetailsActivity }
+06-02 12:17:28.746  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1755   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI }
+06-02 12:17:28.746  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1753   userId=0   baseIntent=Intent { flg=0x10840000 cmp=com.android.deskclock/.alarm.alert.AlarmAlertFullScreenActivity }
+06-02 12:17:28.746  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1751   userId=0   baseIntent=Intent { flg=0x10810000 cmp=com.miui.voiceassist/com.xiaomi.voiceassistant.AiSettings.AiShortcutActivity }
+06-02 12:17:28.746  5955  5983 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-02 12:17:28.749  2990  2990 D Launcher_WallpaperUtils: changeStatusBarMode:false
+06-02 12:17:28.749  2990  3155 D StatusBarController: handleMessage: flag 800000  disable false
+06-02 12:17:28.757   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.757  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.09549156   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:28.757   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.759  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.773   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.774   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.774 25863 25863 E SMBPackage: SMBPackage class loaded! CL=dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/~~s8WGO5nADbQsSOTaDhtzqQ==/com.masterfilemanager-Mbr0e0hCFwzE5tT1lo_Jqg==/base.apk"],nativeLibraryDirectories=[/data/app/~~s8WGO5nADbQsSOTaDhtzqQ==/com.masterfilemanager-Mbr0e0hCFwzE5tT1lo_Jqg==/lib/arm64, /data/app/~~s8WGO5nADbQsSOTaDhtzqQ==/com.masterfilemanager-Mbr0e0hCFwzE5tT1lo_Jqg==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]]
+06-02 12:17:28.774 25863 25863 E SMBPackage: SMBPackage instance created
+06-02 12:17:28.776 25863 25863 W unknown:ReactInstanceManagerBuilder: You're not setting the JS Engine Resolution Algorithm. We'll try to load JSC first, and if it fails we'll fallback to Hermes
+06-02 12:17:28.777  1788  1799 W System  : A resource failed to call release. 
+06-02 12:17:28.777  1788  1799 I chatty  : uid=1000(system) FinalizerDaemon identical 4 lines
+06-02 12:17:28.777  1788  1799 W System  : A resource failed to call release. 
+06-02 12:17:28.777  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.782 25863 25863 W linker  : Warning: "/data/app/~~s8WGO5nADbQsSOTaDhtzqQ==/com.masterfilemanager-Mbr0e0hCFwzE5tT1lo_Jqg==/base.apk!/lib/arm64-v8a/libc++_shared.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+06-02 12:17:28.783  1788  1799 W System  : A resource failed to call release. 
+06-02 12:17:28.784  1788  1799 I chatty  : uid=1000(system) FinalizerDaemon identical 2 lines
+06-02 12:17:28.784  1788  1799 W System  : A resource failed to call release. 
+06-02 12:17:28.786 25863 25863 W linker  : Warning: "/data/app/~~s8WGO5nADbQsSOTaDhtzqQ==/com.masterfilemanager-Mbr0e0hCFwzE5tT1lo_Jqg==/base.apk!/lib/arm64-v8a/libruntimeexecutor.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+06-02 12:17:28.790   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.790  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.24818844   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:28.791   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.792  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.795 25863 25863 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-02 12:17:28.795 25863 25863 D DecorView: createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+06-02 12:17:28.800 25863 25889 E SMBPackage: SMBPackage.createNativeModules called
+06-02 12:17:28.803 25863 25888 D ViewContentFactory: initViewContentFetcherClass
+06-02 12:17:28.803 25863 25888 D ViewContentFactory: getInterceptorPackageInfo
+06-02 12:17:28.803 25863 25888 D ViewContentFactory: getInitialApplication took 0ms
+06-02 12:17:28.804 25863 25888 D ViewContentFactory: packageInfo.packageName: com.miui.catcherpatch
+06-02 12:17:28.807   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.807   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.810  2990  5965 W FloatingIconLayer: release
+06-02 12:17:28.812  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.812 25863 25888 D ViewContentFactory: initViewContentFetcherClass took 9ms
+06-02 12:17:28.812 25863 25888 I ContentCatcher: ViewContentFetcher : ViewContentFetcher
+06-02 12:17:28.812 25863 25888 D ViewContentFactory: createInterceptor took 9ms
+06-02 12:17:28.821  2990  2990 D RecentsImpl: mActivityStateObserver com.masterfilemanager.MainActivity
+06-02 12:17:28.821  2990  2990 W RecentsImpl: onResumed className=com.masterfilemanager.MainActivity   mIsInAnotherPro=false   isKeyguardLocked=false
+06-02 12:17:28.821 27826  4104 I XMSF-actMonitor_MonitorManager: onActivityResumed: ActivityInfo{name='com.masterfilemanager.MainActivity', pkg='com.masterfilemanager', callerPkg='null', windowMode=-1, displayId=-1, appBounds=Rect(0, 75 - 1080, 2296), duration=-1},activityInfoQueue:30,curMonitorStrategy=
+06-02 12:17:28.821  3378  3429 D services: [XMS][observer] ActivityObserver activityResumed packageName: com.masterfilemanager
+06-02 12:17:28.822  3735  3770 D services: [XMS][observer] ActivityObserver activityResumed packageName: com.masterfilemanager
+06-02 12:17:28.822  2990  3186 D RecentsImpl: showNavStubView
+06-02 12:17:28.822  2990  3186 D NavStubView_Touch: setKeepHidden    old=false   new=false
+06-02 12:17:28.822  2990  3177 W RecentsImpl: disableTouchBySwipeStatusBar    disable=false
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+06-02 12:17:28.822  2990  3177 W RecentsImpl: disableBackStubWindow    disableTouch=false
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch: disableTouch    old=true   new=false
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch: updateTouchable    old=true   new=true
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch: disableTouch    old=true   new=false
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch: updateTouchable    old=true   new=true
+06-02 12:17:28.822  2990  3177 D RecentsImpl: showBackStubWindow  hasNavigationBar=true
+06-02 12:17:28.822 24297 25769 I VA_ActivityStateHelper: activityResumed componentName ComponentInfo{com.masterfilemanager/com.masterfilemanager.MainActivity}
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch: setKeepHidden    old=true   new=false
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch: updateTouchable    old=true   new=false
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch:   updateTouchable---requestApplyInsets
+06-02 12:17:28.822  2990  3177 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+06-02 12:17:28.822 26997 27045 D auth    : [XMS][Auth] ActivityObserver activityResumed packageName: com.masterfilemanager
+06-02 12:17:28.822  2990  3177 D GestureStubView: resetRenderProperty: showGestureStub
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch: disableTouch    old=false   new=false
+06-02 12:17:28.822  2990  3177 D GestureStubView: showGestureStub
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch: setKeepHidden    old=true   new=false
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch: updateTouchable    old=true   new=false
+06-02 12:17:28.822  2990  3177 D GestureStubView_Touch:   updateTouchable---requestApplyInsets
+06-02 12:17:28.822  2990  3177 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+06-02 12:17:28.823  2990  3177 D GestureStubView: resetRenderProperty: showGestureStub
+06-02 12:17:28.823  2990  3177 D GestureStubView_Touch: disableTouch    old=false   new=false
+06-02 12:17:28.823  2990  3177 D GestureStubView: showGestureStub
+06-02 12:17:28.823  6526  6584 I XMSF-actMonitor_MonitorManager: onActivityResumed: ActivityInfo{name='com.masterfilemanager.MainActivity', pkg='com.masterfilemanager', callerPkg='null', windowMode=-1, displayId=-1, appBounds=Rect(0, 75 - 1080, 2296), duration=-1},activityInfoQueue:30,curMonitorStrategy=
+06-02 12:17:28.823 31637 31661 D auth    : [XMS][Auth] ActivityObserver activityResumed packageName: com.masterfilemanager
+06-02 12:17:28.822 24297 25769 I VA_ActivityStateHelper: activityResumed mAiSkillPush is false
+06-02 12:17:28.824  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.44981903   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:28.824   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.824   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.825  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.830  2657  3568 D CommandQueue: setStatus: setStatus: what = 0, action = upate_specail_mode, ext = Bundle[mParcelledData.dataSize=108][pkg = com.masterfilemanager[enable_config = false
+06-02 12:17:28.832 25863 25863 V MiuiFrameworkFactory: get AllImpl object = android.common.MiuiFrameworkFactoryImpl@db5e5ba
+06-02 12:17:28.832  2990  3177 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-02 12:17:28.837  2990  3249 E Launcher.Transfer: transfer is closed
+06-02 12:17:28.840   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.840   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.840 25863 25885 I AdrenoGLES-0: QUALCOMM build                   : 42297a4, I9e9b240040
+06-02 12:17:28.840 25863 25885 I AdrenoGLES-0: Build Date                       : 03/19/21
+06-02 12:17:28.840 25863 25885 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.07
+06-02 12:17:28.840 25863 25885 I AdrenoGLES-0: Local Branch                     : 
+06-02 12:17:28.840 25863 25885 I AdrenoGLES-0: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.9.1.R1.11.00.00.604.070
+06-02 12:17:28.840 25863 25885 I AdrenoGLES-0: Remote Branch                    : NONE
+06-02 12:17:28.840 25863 25885 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+06-02 12:17:28.840 25863 25885 I AdrenoGLES-0: Build Config                     : S P 10.0.6 AArch64
+06-02 12:17:28.840 25863 25885 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+06-02 12:17:28.844  2990  3177 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-02 12:17:28.845 25863 25891 E ReactNativeJS: TypeError: Cannot read property 'RNFSFileTypeRegular' of null, js engine: hermes
+06-02 12:17:28.846 25863 25885 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+06-02 12:17:28.847 25863 25891 I ReactNativeJS: Running "MasterFileManager
+06-02 12:17:28.847 25863 25891 E ReactNativeJS: Invariant Violation: "MasterFileManager" has not been registered. This can happen if:
+06-02 12:17:28.847 25863 25891 E ReactNativeJS: * Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.
+06-02 12:17:28.847 25863 25891 E ReactNativeJS: * A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called., js engine: hermes
+06-02 12:17:28.850  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: FATAL EXCEPTION: mqt_native_modules
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: Process: com.masterfilemanager, PID: 25863
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: com.facebook.react.common.JavascriptException: TypeError: Cannot read property 'RNFSFileTypeRegular' of null, js engine: hermes, stack:
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: anonymous@1:614396
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: loadModuleImplementation@1:27106
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: guardedLoadModule@1:26630
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: metroRequire@1:26260
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: anonymous@1:609201
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: loadModuleImplementation@1:27106
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: guardedLoadModule@1:26630
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: metroRequire@1:26260
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: anonymous@1:601336
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: loadModuleImplementation@1:27106
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: guardedLoadModule@1:26630
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: metroRequire@1:26260
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: anonymous@1:33311
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: loadModuleImplementation@1:27106
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: guardedLoadModule@1:26587
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: metroRequire@1:26260
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: global@1:25788
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: 
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: 	at com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.java:65)
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: 	at com.facebook.react.bridge.JavaMethodWrapper.invoke(JavaMethodWrapper.java:372)
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: 	at com.facebook.react.bridge.JavaModuleWrapper.invoke(JavaModuleWrapper.java:149)
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.java:29)
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:236)
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$4.run(MessageQueueThreadImpl.java:234)
+06-02 12:17:28.850 25863 25892 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:923)
+06-02 12:17:28.853  5404  5585 E OOMEventManager: oom event not support this pkg, dismiss this!
+06-02 12:17:28.854  5404 11154 W MQSEventManager: jeoccur
+06-02 12:17:28.855  1788 25897 I DropBoxManagerService: add tag=data_app_crash isTagEnabled=true flags=0x2
+06-02 12:17:28.855  1788  3114 W ActivityTaskManager:   Force finishing activity com.masterfilemanager/.MainActivity
+06-02 12:17:28.856  2990  3039 D LauncherFsGestureCompat: componentName is com.masterfilemanager/.MainActivity
+06-02 12:17:28.857   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.857  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.65450853   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:28.857   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.866  5404  5585 W MQSEventManager: begin to storeEvent
+06-02 12:17:28.870  1788  3114 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-02 12:17:28.870   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-02 12:17:28.870   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.870   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.870   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.870   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.870   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.870   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-02 12:17:28.870   891   953 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:28.870   891   953 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:28.870   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-02 12:17:28.870   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.870   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:28.870   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-02 12:17:28.871  5404  5585 D MQSEventManager: send MSG_JUDGE_TRANSMISSION packageName com.masterfilemanager
+06-02 12:17:28.871  5404  5585 W JavaExceptionHandler: Too noisy! skip duplicate java exception report:com.masterfilemanager now=1780373848871 mLastReportTime=1780373842014 interval=60000
+06-02 12:17:28.871  5404  5585 W MQSEventManager: Too noisy! Bail the event:com.masterfilemanager type:1
+06-02 12:17:28.871  5404  5586 D MQSEventManager: begin call thirdappassistant
+06-02 12:17:28.872  3030 18696 I ThirdAppAssistant: ThirdAppAssistantProvider ThirdAppAssistant is queried
+06-02 12:17:28.873   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.874   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.875  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.879  2990  2990 D EventBus: No subscribers registered for event class com.miui.home.recents.messages.TaskSnapshotChangedEvent
+06-02 12:17:28.879  2990  2990 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+06-02 12:17:28.883  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.883 21174 21208 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:28.888   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-02 12:17:28.888   896   916 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-02 12:17:28.888   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-02 12:17:28.888   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-02 12:17:28.888   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-02 12:17:28.888   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.888   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.888   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.888   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.888   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.888   891   953 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-02 12:17:28.889   891   953 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-02 12:17:28.889   891   953 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-02 12:17:28.889   891   953 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-02 12:17:28.889   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.889   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:28.890   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.890  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.8330059   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:28.891   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.891   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-02 12:17:28.893  2990  2990 D Launcher.Lifecycle: onResume:UserHandle{0},2577498,false
+06-02 12:17:28.893  2990  2990 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+06-02 12:17:28.893  7713 32396 I GST     : forePkg: com.miui.home, preForePkg: com.masterfilemanager
+06-02 12:17:28.893 27826 27888 D MyLog   : -->log(1): [Tid:23318] [ActivationManager_ac] -->onPackageGoForeground(): packageName=com.miui.home, uid10083, myUid=999, pkgUserId=0
+06-02 12:17:28.893  7206  8100 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10083, mForegroundPid=2990, mLastForegroundPackageName='com.masterfilemanager', mLastForegroundUid=10354, mLastForegroundPid=25863, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-02 12:17:28.894  2990  2990 D Launcher.FullbackHome: FallbackHomeCompat::needKillSelf::needKillSelf = false
+06-02 12:17:28.894  2990  3233 D MiBridge: requestCpuHighFreq---- uid: 10083 level: 1 timeoutms:500
+06-02 12:17:28.894  7206  8086 I ThermalInfoCollector: collectForgroundAppsInfo
+06-02 12:17:28.894  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:28.894  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController: request, because cloud cached data expired
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController:  mode 2
+06-02 12:17:28.894  1461 25676 W MiuiBooster: "MiuiBoosterService requestCpuHighFreq: 10083, 1, 500"
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController: folder display and try to request recommend list
+06-02 12:17:28.894  1461 25676 W MiuiBooster: "requestCpuHighFreq,final level:1,final timeoutms:500"
+06-02 12:17:28.894  1461 25676 W MiuiBooster: "perf_hint_hc start"
+06-02 12:17:28.894  1461 25676 W MiuiBooster: "big_core_value[level-1]:4095"
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController: Don't request, folder recommend switch off
+06-02 12:17:28.894  1461 25676 W MiuiBooster: "little_core_value[level-1]:4095"
+06-02 12:17:28.894  1461 25676 W MiuiBooster: "prime_core_value[level - 1]:4095"
+06-02 12:17:28.894  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:28.894  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController: request, because cloud cached data expired
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController:  mode 2
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController: folder display and try to request recommend list
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController: Don't request, folder recommend switch off
+06-02 12:17:28.894  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:28.894  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController: request, because cloud cached data expired
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController:  mode 2
+06-02 12:17:28.883  3591  3591 W Binder:3591_2: type=1400 audit(0.0:277434): avc: denied { search } for name="battery" dev="sysfs" ino=70622 scontext=u:r:mcd:s0 tcontext=u:object_r:vendor_sysfs_battery_supply:s0 tclass=dir permissive=0
+06-02 12:17:28.883  1788  1788 W Binder:1788_B: type=1400 audit(0.0:277435): avc: denied { read } for name="system" dev="debugfs" ino=4434 scontext=u:r:system_server:s0 tcontext=u:object_r:vendor_debugfs_ion:s0 tclass=file permissive=0
+06-02 12:17:28.893  3591  3591 W Binder:3591_2: type=1400 audit(0.0:277436): avc: denied { search } for name="battery" dev="sysfs" ino=70622 scontext=u:r:mcd:s0 tcontext=u:object_r:vendor_sysfs_battery_supply:s0 tclass=dir permissive=0
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController: folder display and try to request recommend list
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController: Don't request, folder recommend switch off
+06-02 12:17:28.894  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:28.894  2990  2990 D Launcher.XOutUtils: canRecommendScreenShow, isShowXout=false
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController: request, because cloud cached data expired
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController:  mode 2
+06-02 12:17:28.894  2990  2990 D Launcher.RecommendController: folder display and try to request recommend list
+06-02 12:17:28.894  2990  2990 D Launcher_UnlockAnimationStateMachine: setState:IDLE
+06-02 12:17:28.895 26108 26250 D LauncherOverlay: setActivityState:3
+06-02 12:17:28.895  2990  3386 I RenderThread: RenderThread resumed
+06-02 12:17:28.895  2990  3386 I RenderThread: All controllers paused.
+06-02 12:17:28.895  2990  3386 I RenderThread: RenderThread paused, waiting for signal
+06-02 12:17:28.895 26108 26108 D LauncherOverlay.Window: onResume
+06-02 12:17:28.895  3591  8225 I octvm_power: power mode [home] start 1780373848
+06-02 12:17:28.895  3591  8225 E octvm   : open /sys/class/power_supply/battery/status error, Permission denied
+06-02 12:17:28.895  3591  8225 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-02 12:17:28.895  3591  8225 I octvm_power: Action: set_bcbc_cust_state(disable) for [foreground_change]
+06-02 12:17:28.895  5955  7638 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10083, mForegroundPid=2990, mLastForegroundPackageName='com.masterfilemanager', mLastForegroundUid=10354, mLastForegroundPid=25863, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-02 12:17:28.895   585   585 E SELinux : avc:  denied  { find } for interface=vendor.xiaomi.hardware.displayfeature::IDisplayFeature sid=u:r:mcd:s0 pid=3591 scontext=u:r:mcd:s0 tcontext=u:object_r:hal_displayfeature_xiaomi_hwservice:s0 tclass=hwservice_manager permissive=0
+06-02 12:17:28.896  2990  3039 D AppObserver: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10083, mForegroundPid=2990, mLastForegroundPackageName='com.masterfilemanager', mLastForegroundUid=10354, mLastForegroundPid=25863, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-02 12:17:28.896  5955  5983 D p1      : myUserId = 0	currentUserId0
+06-02 12:17:28.896  1788  3119 W ActivityHelper: Unable to access /d/ion/heaps/system: Permission denied
+06-02 12:17:28.896  1788  3119 W ActivityHelper: Unable to access /d/ion/ion_mm_heap: No such file or directory
+06-02 12:17:28.896  3591  8225 E octvm_drv_xm: platform_set_bcbc_cust_state IDisplayFeature getService failed
+06-02 12:17:28.896  3591  8225 E octvm_power: Action set_bcbc_cust_state failed.
+06-02 12:17:28.896  3591  8225 I octvm_power: Action: set_lcd_mode(default) for [foreground_change]
+06-02 12:17:28.897   585   585 E SELinux : avc:  denied  { find } for interface=vendor.xiaomi.hardware.displayfeature::IDisplayFeature sid=u:r:mcd:s0 pid=3591 scontext=u:r:mcd:s0 tcontext=u:object_r:hal_displayfeature_xiaomi_hwservice:s0 tclass=hwservice_manager permissive=0
+06-02 12:17:28.897  1461 25676 W MiuiBooster: "perf_handle:28486"
+06-02 12:17:28.897  2990  3233 D MiBridge: requestCpuHighFreq handle: 1
+06-02 12:17:28.897  2990  3233 D Launcher_CPUBooster: boostCpuToMax:0
+06-02 12:17:28.897  3591  8225 E octvm_drv_xm: platform_set_lcd_mode IDisplayFeature getService failed
+06-02 12:17:28.897  3591  8225 E octvm   : open /sys/class/power_supply/battery/status error, Permission denied
+06-02 12:17:28.897  3591  8225 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-02 12:17:28.897  3591  8225 I octvm_power: onPowerModeChanged[home] called
+06-02 12:17:28.898  5955  7638 I GameBoosterService: onForegroundInfoChanged: Cur=com.miui.home	 last=com.masterfilemanager
+06-02 12:17:28.898  1788  3125 I Timeline: Timeline: App_transition_ready time:448983561
+06-02 12:17:28.900  5955  7638 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10083, mForegroundPid=2990, mLastForegroundPackageName='com.masterfilemanager', mLastForegroundUid=10354, mLastForegroundPid=25863, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-02 12:17:28.900  5955  7638 I VideoBoxUtils: isSupportVideoBox: false
+06-02 12:17:28.900  5955  7638 I VideoToolBoxService: vtb is closed!!!
+06-02 12:17:28.900  5955  7593 E SuggestManager: openApp name = com.miui.home
+06-02 12:17:28.900  5955  7593 I NewAutoTaskManager: app use - delay = 9223372036854775807, doRemove = false, doPost = false
+06-02 12:17:28.900  5955  7638 I BeautyService: onForegroundInfoChanged: Cur=com.miui.home	 last=com.masterfilemanager
+06-02 12:17:28.907   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.907   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.911  3378 29463 E captain : match failed, caused by java.util.regex.PatternSyntaxException: Syntax error in regexp pattern near index 1
+06-02 12:17:28.911  3378 29463 E captain : *.activity.StartActivity
+06-02 12:17:28.911  3378 29463 E captain :  ^
+06-02 12:17:28.911  3378 29463 E captain : 	at com.android.icu.util.regex.PatternNative.compileImpl(Native Method)
+06-02 12:17:28.911  3378 29463 E captain : 	at com.android.icu.util.regex.PatternNative.<init>(PatternNative.java:39)
+06-02 12:17:28.911  3378 29463 E captain : 	at com.android.icu.util.regex.PatternNative.create(PatternNative.java:35)
+06-02 12:17:28.911  3378 29463 E captain : 	at java.util.regex.Pattern.compile(Pattern.java:1426)
+06-02 12:17:28.911  3378 29463 E captain : 	at java.util.regex.Pattern.<init>(Pattern.java:1401)
+06-02 12:17:28.911  3378 29463 E captain : 	at java.util.regex.Pattern.compile(Pattern.java:959)
+06-02 12:17:28.911  3378 29463 E captain : 	at kotlin.text.Regex.<init>(SourceFile:3)
+06-02 12:17:28.911  3378 29463 E captain : 	at com.xiaomi.xms.captain.engine.repo.TrialRepo.p(Unknown Source:76)
+06-02 12:17:28.911  3378 29463 E captain : 	at com.xiaomi.xms.captain.engine.repo.TrialRepo.n(Unknown Source:125)
+06-02 12:17:28.911  3378 29463 E captain : 	at com.xiaomi.xms.captain.engine.observer.PageLifecycleObserver.c(Unknown Source:186)
+06-02 12:17:28.911  3378 29463 E captain : 	at com.xiaomi.xms.captain.engine.observer.PageLifecycleObserver$onReceive$$inlined$runOnIO$1.invokeSuspend(Unknown Source:76)
+06-02 12:17:28.911  3378 29463 E captain : 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(Unknown Source:11)
+06-02 12:17:28.911  3378 29463 E captain : 	at kotlinx.coroutines.w0.run(Unknown Source:130)
+06-02 12:17:28.911  3378 29463 E captain : 	at kotlinx.coroutines.internal.l$a.run(Unknown Source:3)
+06-02 12:17:28.911  3378 29463 E captain : 	at nd.k.run(Unknown Source:2)
+06-02 12:17:28.911  3378 29463 E captain : 	at nd.a$a.run(Unknown Source:63)
+06-02 12:17:28.911  3378 29463 E captain : match failed, caused by java.util.regex.PatternSyntaxException: Syntax error in regexp pattern near index 1
+06-02 12:17:28.911  3378 29463 E captain : *.activity.LauncherActivity
+06-02 12:17:28.911  3378 29463 E captain :  ^
+06-02 12:17:28.911  3378 29463 E captain : 	at com.android.icu.util.regex.PatternNative.compileImpl(Native Method)
+06-02 12:17:28.911  3378 29463 E captain : 	at com.android.icu.util.regex.PatternNative.<init>(PatternNative.java:39)
+06-02 12:17:28.911  3378 29463 E captain : 	at com.android.icu.util.regex.PatternNative.create(PatternNative.java:35)
+06-02 12:17:28.911  3378 29463 E captain : 	at java.util.regex.Pattern.compile(Pattern.java:1426)
+06-02 12:17:28.911  3378 29463 E captain : 	at java.util.regex.Pattern.<init>(Pattern.java:1401)
+06-02 12:17:28.911  3378 29463 E captain : 	at java.util.regex.Pattern.compile(Pattern.java:959)
+06-02 12:17:28.911  3378 29463 E captain : 	at kotlin.text.Regex.<init>(SourceFile:3)
+06-02 12:17:28.911  3378 29463 E captain : 	at com.xiaomi.xms.captain.engine.repo.TrialRepo.p(Unknown Source:76)
+06-02 12:17:28.911  3378 29463 E captain : 	at com.xiaomi.xms.captain.engine.repo.TrialRepo.n(Unknown Source:125)
+06-02 12:17:28.911  3378 29463 E captain : 	at com.xiaomi.xms.captain.engine.observer.PageLifecycleObserver.c(Unknown Source:186)
+06-02 12:17:28.911  3378 29463 E captain : 	at com.xiaomi.xms.captain.engine.observer.PageLifecycleObserver$onReceive$$inlined$runOnIO$1.invokeSuspend(Unknown Source:76)
+06-02 12:17:28.911  3378 29463 E captain : 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(Unknown Source:11)
+06-02 12:17:28.911  3378 29463 E captain : 	at kotlinx.coroutines.w0.run(Unknown Source:130)
+06-02 12:17:28.911  3378 29463 E captain : 	at kotlinx.coroutines.internal.l$a.run(Unknown Source:3)
+06-02 12:17:28.911  3378 29463 E captain : 	at nd.k.run(Unknown Source:2)
+06-02 12:17:28.911  3378 29463 E captain : 	at nd.a$a.run(Unknown Source:63)
+06-02 12:17:28.912 27826 28168 I XMSF-actMonitor_MonitorManager: onActivityResumed: ActivityInfo{name='com.miui.home.launcher.Launcher', pkg='com.miui.home', callerPkg='null', windowMode=-1, displayId=-1, appBounds=Rect(0, 75 - 1080, 2296), duration=-1},activityInfoQueue:30,curMonitorStrategy=
+06-02 12:17:28.912 25863 25892 I Process : Sending signal. PID: 25863 SIG: 9
+06-02 12:17:28.912  2657  3569 D CommandQueue: setStatus: setStatus: what = 0, action = upate_specail_mode, ext = Bundle[mParcelledData.dataSize=92][pkg = com.miui.home[enable_config = true
+06-02 12:17:28.913  3378 15569 D services: [XMS][observer] ActivityObserver activityResumed packageName: com.miui.home
+06-02 12:17:28.913  6526 23321 I XMSF-actMonitor_MonitorManager: onActivityResumed: ActivityInfo{name='com.miui.home.launcher.Launcher', pkg='com.miui.home', callerPkg='null', windowMode=-1, displayId=-1, appBounds=Rect(0, 75 - 1080, 2296), duration=-1},activityInfoQueue:30,curMonitorStrategy=
+06-02 12:17:28.913 24297 25769 I VA_ActivityStateHelper: activityResumed componentName ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher}
+06-02 12:17:28.914 24297 25769 I VA_ActivityStateHelper: activityResumed mAiSkillPush is false
+06-02 12:17:28.914  2990  2990 D RecentsImpl: mActivityStateObserver com.miui.home.launcher.Launcher
+06-02 12:17:28.915 31637 31661 D auth    : [XMS][Auth] ActivityObserver activityResumed packageName: com.miui.home
+06-02 12:17:28.915 26997 27045 D auth    : [XMS][Auth] ActivityObserver activityResumed packageName: com.miui.home
+06-02 12:17:28.915  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.915  2990  2990 W RecentsImpl: onResumed className=com.miui.home.launcher.Launcher   mIsInAnotherPro=false   isKeyguardLocked=false
+06-02 12:17:28.915  2990  2990 D Launcher: notifyBackGestureStatus
+06-02 12:17:28.916  3735 14362 D services: [XMS][observer] ActivityObserver activityResumed packageName: com.miui.home
+06-02 12:17:28.916  2657  3045 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-02 12:17:28.917  2990  3155 E Launcher: notifyBackGestureStatus:run usingFsGesture=true   show=true   focus=false   pause=false
+06-02 12:17:28.917  2990  3155 D Launcher: notifyFsGestureHomeStatus    enableBackGesture=false   isSupportRecentsAndFsGesture=true
+06-02 12:17:28.918  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.921 21174 21208 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:28.923   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.924  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.9576206   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:28.924   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.925  1788 25904 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1758 android.content.ContextWrapper.bindService:767 miui.os.DropBoxManager.bindService:361 miui.os.DropBoxManager.addEntry:350 miui.os.DropBoxManager.addText:314 
+06-02 12:17:28.926  2990  3155 W RecentsImpl: updateFsgWindowVisibilityState   isEnter=false   typeFrom=typefrom_home   isOpen=true   mIsInAnotherPro=false   mIsStatusBarExpansion=false
+06-02 12:17:28.926  2990  3155 W RecentsImpl: getTopActivity from observer.   cn=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher}
+06-02 12:17:28.926  2990  3186 D RecentsImpl: showNavStubView
+06-02 12:17:28.926  2990  3186 D NavStubView_Touch: setKeepHidden    old=false   new=false
+06-02 12:17:28.926  2990  3177 D RecentsImpl: hideBackStubWindow
+06-02 12:17:28.927  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.932  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10354, uidState = 18
+06-02 12:17:28.932  1788  2408 I MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic uid=10354,add=false
+06-02 12:17:28.933   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.miui.core/com.miui.internal.server.CoreService and for client system
+06-02 12:17:28.933   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.miui.core/com.miui.internal.server.CoreServiceare :1
+06-02 12:17:28.933   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : systemare :17
+06-02 12:17:28.933  1788  2408 D MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic rst=true
+06-02 12:17:28.933 21174 21208 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:28.934  1788 25904 D CompatibilityInfo: mCompatibilityFlags - 0
+06-02 12:17:28.934  1788 25904 D CompatibilityInfo: applicationDensity - 440
+06-02 12:17:28.934  1788 25904 D CompatibilityInfo: applicationScale - 1.0
+06-02 12:17:28.934   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.miui.core/com.miui.internal.server.CoreService
+06-02 12:17:28.935  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10149, uidState = 6
+06-02 12:17:28.942   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.942   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.944  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.947  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10122, uidState = 5
+06-02 12:17:28.947  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10073, uidState = 5
+06-02 12:17:28.949 23277 23969 D IdProviderImpl: getOAID
+06-02 12:17:28.956 21495 25905 I Market-LocalAppManager: checkUpdateFromServer : start
+06-02 12:17:28.957  2990  2990 E BlurUtils: fastBlurDirectly ratio=1.0   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:28.958   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.958   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.962 21495 25905 I Market-LocalAppManager: getUpdateInfoFromServer : start,isBackground=true
+06-02 12:17:28.963  1788  1788 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+06-02 12:17:28.963  1788  1788 W Binder  : java.lang.Throwable
+06-02 12:17:28.963  1788  1788 W Binder  : 	at android.os.BinderProxy.transact(BinderProxy.java:554)
+06-02 12:17:28.963  1788  1788 W Binder  : 	at com.miui.internal.server.IDropBoxManagerService$Stub$Proxy.add(IDropBoxManagerService.java:159)
+06-02 12:17:28.963  1788  1788 W Binder  : 	at miui.os.DropBoxManager$2.onServiceConnected(DropBoxManager.java:286)
+06-02 12:17:28.963  1788  1788 W Binder  : 	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:1967)
+06-02 12:17:28.963  1788  1788 W Binder  : 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1999)
+06-02 12:17:28.963  1788  1788 W Binder  : 	at android.os.Handler.handleCallback(Handler.java:938)
+06-02 12:17:28.963  1788  1788 W Binder  : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-02 12:17:28.963  1788  1788 W Binder  : 	at android.os.Looper.loop(Looper.java:236)
+06-02 12:17:28.963  1788  1788 W Binder  : 	at com.android.server.SystemServer.run(SystemServer.java:651)
+06-02 12:17:28.963  1788  1788 W Binder  : 	at com.android.server.SystemServer.main(SystemServer.java:429)
+06-02 12:17:28.963  1788  1788 W Binder  : 	at java.lang.reflect.Method.invoke(Native Method)
+06-02 12:17:28.963  1788  1788 W Binder  : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+06-02 12:17:28.963  1788  1788 W Binder  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:945)
+06-02 12:17:28.964  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.965 21495 25905 I Market-LocalAppManager: getUpdateInfoFromServer : middle
+06-02 12:17:28.967   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.miui.core/com.miui.internal.server.CoreService and for client system
+06-02 12:17:28.967   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.miui.core/com.miui.internal.server.CoreServiceafter removal is 0
+06-02 12:17:28.967   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: systemafter removal is 16
+06-02 12:17:28.967   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.miui.core/com.miui.internal.server.CoreService
+06-02 12:17:28.970  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10149, uidState = 10
+06-02 12:17:28.970 21495 25905 I Market-RetrofitRequest: callStart : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2
+06-02 12:17:28.971 21495 25905 I Market-RetrofitRequest: HeaderInterceptor : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2
+06-02 12:17:28.971  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10149, uidState = 19
+06-02 12:17:28.974 21495 25905 I Market-Client: isSupportIsland: false
+06-02 12:17:28.975   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.975   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.976 21495 25905 I Market-Client: getNotificationFocusProtocol: OS
+06-02 12:17:28.979  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.981 21495 25905 I Market-LimitSpeedManager: startLimitSpeedNow() ====== speed = 32768
+06-02 12:17:28.982  4111  5798 I XLDownloadManager: debug: XLDownloadManager::setSpeedLimit beg, maxDownloadSpeed=[32768] maxUploadSpeed=[-1] [XLDownloadManager.java:1517 - com.xunlei.downloadlib.XLDownloadManager.setSpeedLimit] []
+06-02 12:17:28.983  4111  5798 I XLDownloadManager: debug: XLDownloadManager::setSpeedLimit end, maxDownloadSpeed=[32768] maxUploadSpeed=[-1] ret=[9000] [XLDownloadManager.java:1525 - com.xunlei.downloadlib.XLDownloadManager.setSpeedLimit] []
+06-02 12:17:28.983  4111  5798 D DMS_LimitSpeedService: limit speed(32.00KB/s) success 
+06-02 12:17:28.983 21495 25905 I Market-DownloadLimitSpeedManager: startLimitSpeed success. Total count 1
+06-02 12:17:28.983 21495 25905 I Market-RetrofitRequest: HeaderInterceptor : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2
+06-02 12:17:28.987  1788  5956 I WindowManager: WIN DEATH: Window{57f8969 mode=0 rootTaskId=1789 u0 com.masterfilemanager/com.masterfilemanager.MainActivity}
+06-02 12:17:28.987  1788  3125 I ActivityManager: Process com.masterfilemanager (pid 25863) has died: prcp CRE 
+06-02 12:17:28.987  1788  5956 W InputDispatcher: Attempted to unregister already unregistered input channel '57f8969 com.masterfilemanager/com.masterfilemanager.MainActivity (server)'
+06-02 12:17:28.987  1788  1834 I Process : PerfMonitor : current process killing process group. PID: 25863
+06-02 12:17:28.987  1788  1834 I libprocessgroup: Successfully killed process cgroup uid 10354 pid 25863 in 0ms
+06-02 12:17:28.988   891   891 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-02 12:17:28.988   891   891 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-02 12:17:28.988   891   891 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-02 12:17:28.988   891   891 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-02 12:17:28.988   718   718 I Zygote  : Process 25863 exited due to signal 9 (Killed)
+06-02 12:17:28.988   891   953 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-02 12:17:28.988   891   953 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-02 12:17:28.988   891   953 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-02 12:17:28.991   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.991   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:28.994  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:28.995  2990  3155 D StatusBarController: handleMessage: flag 800000  disable false
+06-02 12:17:28.995  2990  2990 D Launcher_WallpaperUtils: changeStatusBarMode:false
+06-02 12:17:28.995   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 25863
+06-02 12:17:28.996  1788  3125 W ANRStateManager: clear state, but process isn't exist. hash=53989866 uid=10354 pid=25863 state=16
+06-02 12:17:28.996 27826  4104 D MyLog   : -->log(1): [Tid:23496] [KeepAliveManager] -->onProcessDied(), pid=25863, uid=10354
+06-02 12:17:28.996   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-02 12:17:28.996   896 24725 I chatty  : uid=1000(system) HwBinder:896_9 identical 1 line
+06-02 12:17:28.996   896 24725 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-02 12:17:28.996  6526 28239 D MyLog   : -->log(1): [Tid:1792] [KeepAliveManager] -->onProcessDied(), pid=25863, uid=10354
+06-02 12:17:28.996  3735  3735 D AppLifecycleObserver: onReceive: com.masterfilemanager DESTROY
+06-02 12:17:28.996  3378  3378 D AppLifecycleObserver: onReceive: com.masterfilemanager DESTROY
+06-02 12:17:28.997  2990  3039 D RecentsModel: onTaskStackChangedBackground
+06-02 12:17:28.997  2990  3265 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+06-02 12:17:28.997  2990  3265 D RecentsModel: preloadRecents
+06-02 12:17:28.997  2990  3265 W RecentsModel: getRunningTask
+06-02 12:17:28.997  5955 21568 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-02 12:17:28.998  3735  3735 D PkgUtils: getApplicationInfo packageName:com.masterfilemanager, flags:128 applicationInfo:ApplicationInfo{f609d4a com.masterfilemanager} needSecondSpace:false
+06-02 12:17:28.998  3378  3378 D PkgUtils: getApplicationInfo packageName:com.masterfilemanager, flags:128 applicationInfo:ApplicationInfo{41ecfc1 com.masterfilemanager} needSecondSpace:false
+06-02 12:17:28.998  5955  6200 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-02 12:17:28.998  3378  3378 D AppLifecycleObserver: onReceive: com.masterfilemanager DESTROY
+06-02 12:17:28.998  2990  3265 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 pcFlags:0 stackId=1 taskId=2 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800100 cmp=com.miui.home/.launcher.Launcher } baseActivity=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher} topActivity=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher} origActivity=null realActivity=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher} numActivities=1 lastActiveTime=918276532 supportsSplitScreenMultiWindow=true resizeMode=2 isResizeable=true token=android.window.WindowContainerToken@25b39dc topActivityType=2 pictureInPictureParams=null topActivityInfo=ActivityInfo{8a0dae5 com.miui.home.launcher.Launcher} windowMode=1
+06-02 12:17:28.998  2990  3265 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher}
+06-02 12:17:28.993  1418  1418 W Binder:1418_B: type=1400 audit(0.0:277437): avc: denied { search } for name="829" dev="proc" ino=8738256 scontext=u:r:cameraserver:s0 tcontext=u:r:hal_camera_default:s0 tclass=dir permissive=0
+06-02 12:17:28.993  1418  1418 W Binder:1418_B: type=1400 audit(0.0:277438): avc: denied { search } for name="829" dev="proc" ino=8738256 scontext=u:r:cameraserver:s0 tcontext=u:r:hal_camera_default:s0 tclass=dir permissive=0
+06-02 12:17:28.998  2990  3265 E ActivityManagerWrapper: get all recent tasks force including 2
+06-02 12:17:28.999  2990  3265 E ActivityManagerWrapper: getRecentTasks: size=5
+06-02 12:17:28.999  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1789   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.masterfilemanager/.MainActivity }
+06-02 12:17:28.999  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1776   userId=0   baseIntent=Intent { flg=0x10800000 cmp=com.android.settings/.Settings$UsbDetailsActivity }
+06-02 12:17:28.999  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1755   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI }
+06-02 12:17:28.999  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1753   userId=0   baseIntent=Intent { flg=0x10840000 cmp=com.android.deskclock/.alarm.alert.AlarmAlertFullScreenActivity }
+06-02 12:17:28.999  2990  3265 E ActivityManagerWrapper: getRecentTasks: taskId=1751   userId=0   baseIntent=Intent { flg=0x10810000 cmp=com.miui.voiceassist/com.xiaomi.voiceassistant.AiSettings.AiShortcutActivity }
+06-02 12:17:28.999  7206  8100 D UidObserver: onUidGone entry uid = 10354
+06-02 12:17:28.999  1788  2408 I MiuiNetworkPolicy: removeUidState uid = 10354
+06-02 12:17:29.001  3378  3378 D PkgUtils: getApplicationInfo packageName:com.masterfilemanager, flags:128 applicationInfo:ApplicationInfo{41ecfc1 com.masterfilemanager} needSecondSpace:false
+06-02 12:17:29.007   992  1067 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.007   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.008  2990  2990 D Launcher.Lifecycle: onWindowFocusChanged:true,UserHandle{0},2577498,false
+06-02 12:17:29.008  2990  2990 D Launcher_UnlockAnimationStateMachine: onWindowFocus:IDLE
+06-02 12:17:29.009  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.011  2657  2657 D NotifBadge: recevie broadbcast ACTION_APPLICATION_MESSAGE_QUERY, requestFirstTime=false
+06-02 12:17:29.023   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.024   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.024   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.024   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.026  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.040   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.040   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.043  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.057   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.057   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.058   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.058   992  1063 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.059  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.074   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.074   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.076  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.090   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.090   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.092  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.094  2990  3249 E Launcher.Transfer: transfer is closed
+06-02 12:17:29.107   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.107   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.109  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.124   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.124   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.125  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.140   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.141   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.143  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.157   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.157   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.159  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.174   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.174   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.175  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.191   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.191   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.192  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.196  1788  2561 D SchedBoost: thread tid=2990, priority is set to -10
+06-02 12:17:29.196  1788  2561 D SchedBoost: thread tid=3200, priority is set to -10
+06-02 12:17:29.196  1788  2561 W SchedBoost: has reset SchedAffinity render thread: 3200
+06-02 12:17:29.196  1788  2561 W SchedBoost: SchedBoost end: proc: 2990/3200 675 aff:[0, 1, 2, 3, 4, 5, 6, 7]
+06-02 12:17:29.207   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.207   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.208  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.224   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.224   992  3107 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.225  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.226  2990  3177 D GestureStubView_Touch: setKeepHidden    old=false   new=true
+06-02 12:17:29.226  2990  3177 D GestureStubView_Touch: updateTouchable    old=false   new=true
+06-02 12:17:29.226  2990  3177 D GestureStubView_Touch:   updateTouchable---requestApplyInsets
+06-02 12:17:29.226  2990  3177 D GestureStubView_Touch: disableTouch    old=false   new=true
+06-02 12:17:29.226  2990  3177 D GestureStubView_Touch: updateTouchable    old=true   new=true
+06-02 12:17:29.227  2990  3177 D GestureStubView: hideGestureStub
+06-02 12:17:29.227  2990  3177 D GestureStubView_Touch: setKeepHidden    old=false   new=true
+06-02 12:17:29.227  2990  3177 D GestureStubView_Touch: updateTouchable    old=false   new=true
+06-02 12:17:29.227  2990  3177 D GestureStubView_Touch:   updateTouchable---requestApplyInsets
+06-02 12:17:29.227  2990  3177 D GestureStubView_Touch: disableTouch    old=false   new=true
+06-02 12:17:29.227  2990  3177 D GestureStubView_Touch: updateTouchable    old=true   new=true
+06-02 12:17:29.227  2990  3177 D GestureStubView: hideGestureStub
+06-02 12:17:29.240   992  1973 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.241   992  3258 W SurfaceFlinger: eEarlyWakeup is deprecated. Use eExplicitEarlyWakeup[Start|End]
+06-02 12:17:29.241  2990  3186 W DimLayer: removeDimLayer
+06-02 12:17:29.242  2990  2990 E BlurUtils: fastBlur ratio=0.0   withAnim=false   sBlurRatioValue=1.0
+06-02 12:17:29.242  2990  2990 E BlurUtils: fastBlurDirectly ratio=0.0   win=com.android.internal.policy.MiuiPhoneWindow@ab8be59
+06-02 12:17:29.243  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.246  1788  5964 I Timeline: Timeline: App_transition_stopped time:448983909
+06-02 12:17:29.248  1788  1823 W ActivityManager: setHasOverlayUi called on unknown pid: 25863
+06-02 12:17:29.248  2990  2990 E LauncherAnimationRunner: finish: mFinishRunnable.run
+06-02 12:17:29.259  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.263  2990  2990 E RotationHelper: setCurrentTransitionRequest: request=0
+06-02 12:17:29.278  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.308  2622  2730 I chatty  : uid=10137(com.miui.miwallpaper) ImageWallpaper identical 2 lines
+06-02 12:17:29.325  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.327 21495 25905 I Market-DownloadLimitSpeedManager: stopLimitSpeed
+06-02 12:17:29.327 21495 25905 I Market-LimitSpeedManager: stopLimitSpeedNow() =========== 
+06-02 12:17:29.328  4111  5798 I XLDownloadManager: debug: XLDownloadManager::setSpeedLimit beg, maxDownloadSpeed=[-1] maxUploadSpeed=[-1] [XLDownloadManager.java:1517 - com.xunlei.downloadlib.XLDownloadManager.setSpeedLimit] []
+06-02 12:17:29.329  4111  5798 I XLDownloadManager: debug: XLDownloadManager::setSpeedLimit end, maxDownloadSpeed=[-1] maxUploadSpeed=[-1] ret=[9000] [XLDownloadManager.java:1525 - com.xunlei.downloadlib.XLDownloadManager.setSpeedLimit] []
+06-02 12:17:29.329  4111  5798 D DMS_LimitSpeedService: exit limit speed(-1.00B/s) success 
+06-02 12:17:29.329 21495 25905 I Market-RetrofitRequest: callEnd : https://updateinfo.market.xiaomi.com/apm/updateinfo/v2
+06-02 12:17:29.329 21495 25905 I Market-LocalAppManager: getUpdateInfoFromServer : end  , responseCode : OK
+06-02 12:17:29.329 21495 25905 I Market-LocalAppManager: checkUpdateFromServer : end
+06-02 12:17:29.329 21495 25905 I Market-LocalAppManager: checkUpdateFromServer  data parser : end
+06-02 12:17:29.329 21495 25905 I Market-HuanjiManager: condition not satisfied, ignore
+06-02 12:17:29.329 21495 25905 I Market-DataParser: [InvalidPackageList] JSON : invalidSystemPackageList list is null
+06-02 12:17:29.330 21495 25905 I Market-LocalAppManager: checkUpdateFromServer  filter package : end
+06-02 12:17:29.330 21495 25905 I Market-LocalAppManager: checkUpdateFromServer  support64BitPackagesJsonArray : end
+06-02 12:17:29.330 21495 25905 I Market-OneTrackParams: useExpId=2329827,2346055,1978999,2075312,expId=2023001,2311551,2346055,2075312,2378691,2363640,2329827,2333160,1411227,1978999
+06-02 12:17:29.332  3030  3071 W BpBinder: PerfMonitor binderTransact :  time=383ms interface=android.content.IContentProvider code=21
+06-02 12:17:29.332  3030  3071 I ThirdAppAssistant: AppStoreHelper queryPackageInfo result=1 oldVersionName=1.0.0 oldVersionCode=1
+06-02 12:17:29.333 21174 21192 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:29.333 23277 23969 D IdProviderImpl: getOAID
+06-02 12:17:29.335 21174 21208 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:29.335 23277 23969 D IdProviderImpl: getOAID
+06-02 12:17:29.337 21174 21208 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:29.338 23277 23969 D IdProviderImpl: getOAID
+06-02 12:17:29.339 21174 21208 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:29.342  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.344 21174 21208 I CloudSettingsProvider: uriMatch : 2
+06-02 12:17:29.344  3030  3055 W irdappassistan: Reducing the number of considered missed Gc histogram windows from 4255 to 100
+06-02 12:17:29.346  3030  3071 I ThirdAppAssistant: ExceptionManager match exception type failed for com.masterfilemanager
+06-02 12:17:29.359  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.843  2622  2730 I chatty  : uid=10137(com.miui.miwallpaper) ImageWallpaper identical 29 lines
+06-02 12:17:29.860  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.868  2990  3007 W com.miui.home: Reducing the number of considered missed Gc histogram windows from 154 to 100
+06-02 12:17:29.868  2990  3009 W System  : A resource failed to call release. 
+06-02 12:17:29.869  2990  3009 I chatty  : uid=10083(com.miui.home) FinalizerDaemon identical 4 lines
+06-02 12:17:29.869  2990  3009 W System  : A resource failed to call release. 
+06-02 12:17:29.876  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.893  2622  2730 I chatty  : uid=10137(com.miui.miwallpaper) ImageWallpaper identical 1 line
+06-02 12:17:29.894  2622  2730 D ImageWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-02 12:17:29.987 23759 23791 I VA_AliveCore:AssistInteractionService: onProcessChanged: processName=com.miui.voiceassist;isRunning=true
+06-02 12:17:30.335  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10122, uidState = 15
+06-02 12:17:30.335  1788  2408 I MiuiNetworkPolicy: updateUidState uid = 10073, uidState = 15
+06-02 12:17:32.681  1788  5190 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
