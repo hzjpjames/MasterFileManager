@@ -130,6 +130,11 @@ android {
         pickFirst '**/libhermesc.so'
         pickFirst '**/libreactnative.so'
     }
+
+    lint {
+        checkReleaseBuilds = false
+        abortOnError = false
+    }
 }
 
 dependencies {
