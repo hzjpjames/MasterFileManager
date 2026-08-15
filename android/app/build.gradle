@@ -111,9 +111,13 @@ android {
             signingConfig signingConfigs.debug
         }
         release {
-            // Caution! In production, you need to generate your own keystore file.
-            // see https://reactnative.dev/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            // 使用 GitHub Secrets 中的正式签名密钥（keystore base64 在 CI 解码）
+            if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+                signingConfig signingConfigs.release
+            } else {
+                // CI 无 Secrets 时使用 debug 签名（仅作本地测试兜底）
+                signingConfig signingConfigs.debug
+            }
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
