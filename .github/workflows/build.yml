@@ -45,7 +45,7 @@ jobs:
         run: |
           # gradle.properties 中写入签名配置（供 build.gradle 读取）
           cat >> android/gradle.properties << 'EOF'
-          MYAPP_RELEASE_STORE_FILE=app/release.keystore
+          MYAPP_RELEASE_STORE_FILE=release.keystore
           MYAPP_RELEASE_STORE_PASSWORD=$RELEASE_STORE_PASSWORD
           MYAPP_RELEASE_KEY_ALIAS=$RELEASE_KEY_ALIAS
           MYAPP_RELEASE_KEY_PASSWORD=$RELEASE_KEY_PASSWORD
